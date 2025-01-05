@@ -1,0 +1,246 @@
+*{
+
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    background-color: white; 
+    backdrop-filter: blur(1px);
+    background-image: url(Imagens/Logomarca-COMA-MAIS-sem-fundo-HD.png);
+    background-repeat: repeat;
+    background-size: cover; 
+
+}
+
+.alinhamento{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 50%; 
+    left: 50%; 
+
+}
+
+.alinhamento-dir{
+
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    margin-right: 10px;
+    top: 50%; 
+    left: 50%; 
+
+}
+
+#header{
+
+    background-color: rgb(38, 66, 224);
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+
+}
+
+#header img{
+
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+
+}
+
+#h1-header{
+
+    color: rgb(248, 237, 212);
+    font-size: arial;
+    padding-left: 5px;  
+    padding-top: 3px;
+    padding-bottom: 1px; 
+
+}
+
+.h3-header{
+
+    color: #fff;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+
+}
+
+.link-cabeçalho{
+
+    text-decoration: none;
+    color: #fff;
+    margin-right: 5px;
+    word-spacing: 5px;
+    font-size: 16px;
+    font-family: arial;
+    cursor: pointer;
+
+}
+
+#navegação{
+
+    text-align: right;
+    padding-right: 5px;
+
+}
+
+.section-1{
+
+    color: #fff;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 160px;
+    border-radius: 12px;
+
+}
+
+.h2-section1{
+
+    font-family: arial;
+    font-size: 25px;
+    padding-top: 27px;
+
+}
+
+.p1{
+
+    padding-top: 13px;
+    font-family: arial;
+    font-size: 22px;
+
+}
+
+.devs{
+
+    background-color: black;
+    font-weight: 600;
+    font-size: 18;
+    color: white;
+    text-align: left;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    position: absolute;
+    
+}
+
+.descricao{
+
+    width: 70px;
+    height: 70px;
+    color: black;
+    background-color: grey;
+
+}
+
+.quadro{
+
+    background-color: rgb(38, 66, 224);
+    height: 1450px;
+    width: 59%;
+    margin-top: 10px;
+    margin-left: 15px;
+
+
+}
+
+.q2{
+
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 170px;
+    background-color: white;
+
+}
+
+.qdescri{
+
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 81%;
+    height: 110px;
+    background-color: red;
+    color: white;
+
+}
+
+.tituloagr{
+
+    font-weight: 600;
+    font-size: 10;
+    color: black;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    text-align: left;
+
+}
+
+.menu-detalhado{
+
+    font-weight: 600;
+    font-size: 10;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: -20px;
+
+}
+
+.produtos{
+
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 100px;
+    height: 110px;
+    background-color: red;
+
+}
+
+.tp{
+
+    font-weight: 600;
+    font-size: 10;
+    color: white;
+    background-color: red;
+    text-align: center;
+
+}
+
+.produtos img{
+
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+    width: 100px;
+    height: 105px;
+
+}
+
+.preço{
+
+    margin-left: 450px;
+    margin-top: 65px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: black;
+    text-align: center;
+    width: 60px;
+
+}
