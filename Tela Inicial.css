@@ -133,6 +133,7 @@ body{
 
 .rodape{
 
+    border-radius: 1000px 1000px 0px 0px;
     background-color: rgb(38, 66, 224);
     position: fixed;
     bottom: 0;
@@ -141,18 +142,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 
 }
 
 .quadro{
 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: -8px 8px 0px rgba(0, 0, 0, 0.8);
     background-color: red;
     border-radius: 10px;
     height: 820px;
     width: 60%;
     margin-left: 10px;
     margin-top: 10px;
+
+}
+
+.end{
+
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
 
 }
 
