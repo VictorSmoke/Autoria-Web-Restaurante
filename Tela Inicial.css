@@ -1,6 +1,6 @@
 *{
 
-    border: 0;
+    border: 0px solid black;
     padding: 0;
     margin: 0;
 
@@ -69,19 +69,61 @@ body{
     text-decoration: none;
     color: #fff;
     margin-right: 10px;
-    word-spacing: 5px;
+    word-spacing: 0px;
     font-weight: 800;
     font-size: 16px;
     font-family: arial;
     cursor: pointer;
+    border-radius: 5px;
     
+    
+   
+
 }
 
 .link-cabeçalho:hover{
 
-border: black 10px;
+border: 2px solid rgb(9, 4, 80);
+    
 
 }
+
+.link1{
+
+position: fixed;
+left: 430px;
+
+}
+
+.link2{
+
+position: fixed;
+left: 500px;
+
+
+}
+
+.link3{
+
+position: fixed;
+right: 570px;
+
+}
+
+.link4{
+
+position: fixed;
+right: 500px;
+
+}
+
+.logofix{
+
+position: fixed;
+right: 650px;
+
+}
+
 
 #navegação{
 

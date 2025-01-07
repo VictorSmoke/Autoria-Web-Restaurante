@@ -1,6 +1,6 @@
 *{
 
-    border: 0;
+    border: 0px solid black;
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -165,7 +165,43 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     height: 170px;
-    background-color: white;
+    background-color: rgb(180, 161, 161);
+
+}
+
+.lg1{
+
+    font-size: 18px;
+    position: absolute;
+    left: 550px;
+
+}
+
+.lg2{
+
+font-size: 18px;
+position: absolute;
+left: 550px;
+bottom: 1125px;
+
+}
+
+.lg3{
+
+    font-size: 18px;
+    position: absolute;
+    left: 550px;
+    bottom: 1070px;
+
+}
+
+.lg4{
+
+    font-size: 18px;
+    position: absolute;
+    left: 750px;
+    top: 370px;
+    border-radius: 10px;
 
 }
 
