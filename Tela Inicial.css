@@ -1,5 +1,6 @@
 *{
 
+    font-family: Arial, Helvetica, sans-serif;
     border: 0px solid black;
     padding: 0;
     margin: 0;
@@ -75,60 +76,28 @@ body{
     font-family: arial;
     cursor: pointer;
     border-radius: 5px;
-    
-    
-   
 
 }
 
 .link-cabeçalho:hover{
 
-border: 2px solid rgb(9, 4, 80);
-    
+    background-color: rgb(9, 4, 80);
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    word-spacing: 0px;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: arial;
+    cursor: pointer;
+    border-radius: 5px;
 
 }
 
-.link1{
+.link{
 
 position: fixed;
 left: 430px;
-
-}
-
-.link2{
-
-position: fixed;
-left: 500px;
-
-
-}
-
-.link3{
-
-position: fixed;
-right: 570px;
-
-}
-
-.link4{
-
-position: fixed;
-right: 500px;
-
-}
-
-.logofix{
-
-position: fixed;
-right: 650px;
-
-}
-
-
-#navegação{
-
-    text-align: right;
-    padding-right: 5px;
 
 }
 
@@ -176,6 +145,20 @@ right: 650px;
     display: flex;
     top: 50%; 
     left: 50%; 
+
+}
+
+.block{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.redes-so{
+
+    color: #fff;
 
 }
 
