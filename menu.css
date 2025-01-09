@@ -66,6 +66,7 @@ body{
 
 #header{
 
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.8);
     background-color: rgb(38, 66, 224);
     z-index: 1;
     position: fixed;
@@ -351,6 +352,7 @@ left: 140px;
 width: 600px;
 height: 100px;
 background-color: rgb(165, 15, 15);
+box-shadow: -5px 8px 0px rgba(0, 0, 0, 0.8);
 align-items: center;
 border-radius: 5px;
 font-size: 17px;
