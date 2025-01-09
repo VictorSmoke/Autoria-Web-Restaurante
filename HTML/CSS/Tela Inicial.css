@@ -1,5 +1,6 @@
 *{
 
+    font-family: Arial, Helvetica, sans-serif;
     border: 0px solid black;
     padding: 0;
     margin: 0;
@@ -64,7 +65,7 @@ body{
 
 }
 
-.link-cabeçalho{
+.link-cabeçalho1{
 
     text-decoration: none;
     color: #fff;
@@ -75,60 +76,100 @@ body{
     font-family: arial;
     cursor: pointer;
     border-radius: 5px;
-    
-    
+   position:fixed;
+   left: 430px;
+   padding: 5px;
    
-
 }
 
-.link-cabeçalho:hover{
+.link-cabeçalho2{
 
-border: 2px solid rgb(9, 4, 80);
-    
-
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    word-spacing: 0px;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: arial;
+    cursor: pointer;
+    border-radius: 5px;
+    position: fixed;
+    left: 495px;
+    padding: 5px;
 }
 
-.link1{
+.link-cabeçalho3{
 
-position: fixed;
-left: 430px;
-
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    word-spacing: 0px;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: arial;
+    cursor: pointer;
+    border-radius: 5px;
+   position: fixed;
+   right: 565px;
+   padding: 5px;
 }
 
-.link2{
+.link-cabeçalho4{
 
-position: fixed;
-left: 500px;
-
-
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    word-spacing: 0px;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: arial;
+    cursor: pointer;
+    border-radius: 5px;
+   position: fixed;
+   right: 500px;
+   padding: 5px;
 }
 
-.link3{
-
-position: fixed;
-right: 570px;
-
-}
-
-.link4{
-
-position: fixed;
-right: 500px;
-
-}
-
-.logofix{
+.logo{
 
 position: fixed;
 right: 650px;
 
 }
 
+.link-cabeçalho1:hover{
 
-#navegação{
+    background-color: rgb(9, 4, 80);
+    
 
-    text-align: right;
-    padding-right: 5px;
+}
+
+.link-cabeçalho2:hover{
+
+    background-color: rgb(9, 4, 80);
+    
+    
+
+}
+
+.link-cabeçalho3:hover{
+
+    background-color: rgb(9, 4, 80);
+    padding: 5px;
+
+}
+
+.link-cabeçalho4:hover{
+
+    background-color: rgb(9, 4, 80);
+    padding: 5px;
+
+}
+
+.link{
+
+position: fixed;
+left: 430px;
 
 }
 
@@ -179,6 +220,27 @@ right: 650px;
 
 }
 
+.block{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.redes-so{
+
+    display: flex;
+    color: #fff;
+
+}
+
+.redes-so a{
+
+    margin-left: 15px;
+
+}
+
 .rodape{
 
     border-radius: 1000px 1000px 0px 0px;
@@ -190,7 +252,9 @@ right: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin-top: 50px;
+    color: #fff;
+    margin-bottom: -50px;
 
 }
 
