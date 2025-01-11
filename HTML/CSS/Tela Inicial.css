@@ -43,7 +43,7 @@ header img{
 main{
 
     flex-grow: 1;
-    display: flex;
+    text-align: center;
     
 }
 
