@@ -1,212 +1,97 @@
-*{
-
-    font-family: Arial, Helvetica, sans-serif;
-    border: 0px solid black;
-    padding: 0;
-    margin: 0;
-
-}
-
 body{
-    
-    background-color: white; 
-    backdrop-filter: blur(1px);
+
     background-image: url(Imagens/Logomarca-COMA-MAIS-sem-fundo-HD.png);
     background-repeat: repeat;
     background-size: cover;
-    margin-bottom: 50px;
-    padding: 90px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 
 }
 
-#header{
+header{
 
     background-color: rgb(38, 66, 224);
-    z-index: 1;
+    z-index: 1000;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 100%;
-    height: 15%;
+    padding: 2rem 0;
     justify-content: center;
-    text-align: center;
     align-items: center;
     display: flex;
 
 }
 
-#header img{
+header img{
 
     margin-left: 10px;
     margin-right: 10px;
     width: 100px;
     height: 100px;
     border-radius: 10px;
+    padding: 0;
+    margin: 0;
 
 }
 
-#h1-header{
+main{
 
-    color: rgb(248, 237, 212);
-    font-size: arial;
-    padding-left: 5px;  
-    padding-top: 3px;
-    padding-bottom: 1px; 
+    flex-grow: 1;
 
-}
-
-.h3-header{
-
-    color: #fff;
-    font-size: arial;
-    padding-left: 5px;
-    padding-top: 3px;
-    padding-bottom: 1px;
-
-}
-
-.link-cabeçalho1{
-
-    text-decoration: none;
-    color: #fff;
-    margin-right: 10px;
-    word-spacing: 0px;
-    font-weight: 800;
-    font-size: 16px;
-    font-family: arial;
-    cursor: pointer;
-    border-radius: 5px;
-   position:fixed;
-   left: 430px;
-   padding: 5px;
-   
-}
-
-.link-cabeçalho2{
-
-    text-decoration: none;
-    color: #fff;
-    margin-right: 10px;
-    word-spacing: 0px;
-    font-weight: 800;
-    font-size: 16px;
-    font-family: arial;
-    cursor: pointer;
-    border-radius: 5px;
-    position: fixed;
-    left: 495px;
-    padding: 5px;
-}
-
-.link-cabeçalho3{
-
-    text-decoration: none;
-    color: #fff;
-    margin-right: 10px;
-    word-spacing: 0px;
-    font-weight: 800;
-    font-size: 16px;
-    font-family: arial;
-    cursor: pointer;
-    border-radius: 5px;
-   position: fixed;
-   right: 565px;
-   padding: 5px;
-}
-
-.link-cabeçalho4{
-
-    text-decoration: none;
-    color: #fff;
-    margin-right: 10px;
-    word-spacing: 0px;
-    font-weight: 800;
-    font-size: 16px;
-    font-family: arial;
-    cursor: pointer;
-    border-radius: 5px;
-   position: fixed;
-   right: 500px;
-   padding: 5px;
-}
-
-.logo{
-
-position: fixed;
-right: 650px;
-
-}
-
-.link-cabeçalho1:hover{
-
-    background-color: rgb(9, 4, 80);
-    
-
-}
-
-.link-cabeçalho2:hover{
-
-    background-color: rgb(9, 4, 80);
-    
-    
-
-}
-
-.link-cabeçalho3:hover{
-
-    background-color: rgb(9, 4, 80);
-    padding: 5px;
-
-}
-
-.link-cabeçalho4:hover{
-
-    background-color: rgb(9, 4, 80);
-    padding: 5px;
-
-}
-
-.link{
-
-position: fixed;
-left: 430px;
-
-}
-
-.section-1{
-
-    color: #fff;
-    background-color: red;
-    margin: 0 auto;
     text-align: center;
-    width: 90%;
-    height: 160px;
-    border-radius: 12px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.h2-section1{
+footer{
 
+    background-color: rgb(38, 66, 224);
+    border-radius: 360px 360px 0px 0px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+
+}
+
+
+.link-cabeçalho{
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
     font-family: arial;
-    font-size: 25px;
-    padding-top: 27px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 5px 2px;
 
 }
 
-.p1{
+.link-cabeçalho:hover{
 
-    padding-top: 13px;
+    background-color: rgb(9, 4, 80);
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 2px;
+    font-weight: 800;
+    font-size: 16px;
     font-family: arial;
-    font-size: 22px;
-
-}
-
-.descricao{
-
-    width: 70px;
-    height: 70px;
-    color: black;
-    background-color: grey;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
 
 }
 
@@ -232,6 +117,7 @@ left: 430px;
 
     display: flex;
     color: #fff;
+    align-items: center;
 
 }
 
@@ -240,105 +126,3 @@ left: 430px;
     margin-left: 15px;
 
 }
-
-.rodape{
-
-    border-radius: 1000px 1000px 0px 0px;
-    background-color: rgb(38, 66, 224);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    color: #fff;
-    margin-bottom: -50px;
-
-}
-
-.quadro{
-
-    box-shadow: -8px 8px 0px rgba(0, 0, 0, 0.8);
-    background-color: red;
-    border-radius: 10px;
-    height: 820px;
-    width: 60%;
-    margin-left: 10px;
-    margin-top: 10px;
-
-}
-
-.end{
-
-    align-items: flex-end;
-    justify-content: center;
-    display: flex;
-
-}
-
-.q2{
-
-    align-items: center;
-    padding-top: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 170px;
-    background-color: white;
-
-}
-
-.tituloagr{
-
-    font-weight: 600;
-    font-size: 10;
-    color: white;
-    background-color: red;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;
-
-}
-
-.menu-detalhado{
-
-    font-weight: 600;
-    font-size: 10;
-    color: white;
-    text-align: center;
-    width: 100%;
-    margin-top: -20px;
-
-}
-
-.produtos{
-
-    text-align: center;
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 100px;
-    height: 110px;
-
-}
-
-.tp{
-
-    font-weight: 600;
-    font-size: 10;
-    color: white;
-    background-color: red;
-    text-align: center;
-    margin-top: -3px;
-
-}
-
-.produtos img{
-
-    width: 100px;
-    height: 60px;
-    margin-top: -5px;
-
-}
-
