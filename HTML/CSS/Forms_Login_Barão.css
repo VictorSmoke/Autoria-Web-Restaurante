@@ -11,6 +11,11 @@ body{
     font-family: "Open Sans", "Lato", sans-serif;
 
 }
+div{
+
+border: 0px solid black;
+
+}
 
 h4:hover{
 
@@ -50,8 +55,8 @@ input{
 
 input:focus{
 
-    transition: all 1s;
-    border: 3px solid #00FD94;
+    transition: all 1s; /**/
+    border: 3px solid #081c72;
     background-color: white;
 
 }
@@ -81,11 +86,11 @@ input:focus{
 .L_rig{
 
     margin-top: 40px;
-    margin-right: -550px;
+    margin-right: -50px;
     width: 450px;
     height: 470px;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
     display: grid;
 
 }
@@ -93,7 +98,7 @@ input:focus{
 .forms{
 
     border-radius: 15px;
-    background-color: #163D3C;
+    background-color: #a30a0a;
     height: 600px;
     width: 480px;
     align-items: center;
@@ -140,18 +145,19 @@ input:focus{
 .Bot_acess{
 
     transition: all 5s ease 0;
-    background-color: #00FD94;
-    border: 3px solid #00FD94;
+    background-color: #081c72;
+    border: 3px solid #081c72;
     text-align: center;
     justify-content: center;
-    color: #1E3231;
+    color: #ffffff;
     cursor: pointer;
     border-radius: 30px;
     width: 270px;
     height: 46px;
     margin-left: 40px;
-    margin-top: -340px;
+    margin-top: -150px;
     animation-name: animacao;
+    
     
 }
 
@@ -164,9 +170,9 @@ input:focus{
 
 @keyframes animacao{
 
-    0%{background-color: #00FD94;}
-    50%{background-color: white;}
-    100%{background-color: #00FD94;}
+    0%{background-color: #081c72;}
+    50%{background-color: rgb(29, 15, 155);}
+    100%{background-color: #081c72;}
 
 }
 
