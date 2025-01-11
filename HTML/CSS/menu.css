@@ -357,7 +357,7 @@ align-items: center;
 border-radius: 5px;
 font-size: 17px;
 color: white;
-margin-bottom: 50px;
+margin-bottom: 50px; 
 
 
 }
@@ -365,7 +365,7 @@ margin-bottom: 50px;
 .div-text:hover{ /*Quero empregar este efeito, mas não está funcionando*//*Animation*/
 
     animation-name: anime;
-    animation-duration: 4s;
+    animation-duration: 1s;
     animation-iteration-count: 2;
 }
 
