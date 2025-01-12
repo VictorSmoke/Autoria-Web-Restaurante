@@ -1,6 +1,6 @@
 *{
 
-    border: 0px solid black;
+    border: 1px solid black;
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,11 +9,12 @@
 
 body{
 
-    background-color: white, linear-gradient(rgba(20,20,20,0.7), rgba(100,100,100,0.3)); 
-    backdrop-filter: blur(0px);
-    background-image: linear-gradient(rgba(20,20,20,0.7), rgba(100,100,100,0.3)), url(Imagens/Logomarca-COMA-MAIS-sem-fundo-HD.png);
+    background-color: white; 
+    backdrop-filter: blur(1px);
+    background-image:  url(Imagens/Logomarca-COMA-MAIS-sem-fundo-HD.png);
     background-repeat: no-repeat;
     background-size: cover; 
+    height: 100%;
 
 
 }
@@ -21,7 +22,7 @@ body{
 .body-sobre{
 
     background-color: white, linear-gradient(rgba(20,20,20,0.7), rgba(100,100,100,0.3)); 
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(1px);
     background-image: url(Imagens/Logomarca-COMA-MAIS-sem-fundo-HD.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,6 +51,8 @@ body{
     display: flex;
     top: 50%; 
     left: 50%; 
+   
+    
 
 }
 
@@ -380,4 +383,56 @@ margin-bottom: 50px;
 
 }
 
+.quadro1{
+
+height: 375px;
+display: flex;
+justify-content: center;
+
+
+}
+
+.item1{
+
+background-color: blue;
+height: 205px;
+width: 200px;
+
+}
+
+.subt{
+
+background-color: orange;
+height: 20px;
+width: 200px;
+
+}
+
+.w{
+
+height: 140px;
+width: 130px;
+position: absolute;
+top: 420px;
+text-align: center;
+
+
+}
+
+.bot{
+
+  height: 20px;
+  width: 30px;
+  background-color: green;
+    
+}
+
+.botf{
+
+height: 20px;
+width: 50px;
+background-color: green;
+
+
+}
 
