@@ -9,7 +9,7 @@
 
 body{
 
-    background-color: white; 
+    background-color: rgb(255, 255, 255); 
     backdrop-filter: blur(1px);
     background-image:  url(Imagens/Logomarca-COMA-MAIS-sem-fundo-HD.png);
     background-repeat: no-repeat;
@@ -394,24 +394,40 @@ justify-content: center;
 
 }
 
+.itemt{
+
+    background-color: blue;
+    height: 305px;
+    width: 300px;
+    position: relative;
+    top: 12px;
+    border-radius: 5px;
+
+
+
+}
+
 .item1{
 
-background-color: blue;
+background-color: rgb(30, 5, 255);
 height: 305px;
 width: 300px;
 position: relative;
 top: 12px;
 border-radius: 5px;
-background-image: url(Imagens/Logomarca-COMA-MAIS.png);/*Apenas para rascunho/teste*/
+/*Apenas para rascunho/teste*/
 
 }
 
 .subt{
 
 background-color: orange;
-height: 20px;
+height: 30px;
 width: 300px;
 border-radius: 5px;
+text-align: center;
+font-family: cursive;
+font-size: 20px;
 
 }
 
@@ -429,17 +445,76 @@ text-align: center;
 .bot{
 
   height: 20px;
-  width: 30px;
+  width: 100px;
   background-color: green;
-    
+  border-radius: 2px; 
+  font-family: cursive;
+  padding: 1px;
 }
 
 .botf{
 
 height: 20px;
-width: 50px;
+width: 150px;
 background-color: green;
+border-radius: 2px;
+font-family: cursive;
+padding: 1px;
+color: white;
 
+
+}
+
+
+.sb{
+
+background-color: rgb(252, 67, 67);
+color: white;
+border-radius: 10px;
+padding: 5px;
+width: 50px;
+
+}
+
+.sb:hover{
+
+cursor: pointer;
+background-color: rgb(196, 51, 51); /*Efeito para o mouse*/
+animation-name: animacao;
+animation-duration: 4s;
+
+
+}
+
+@keyframes animacao{
+
+0% {left: 0px;}
+25% {left: 5px;}
+50% {left: 0px;}
+75% {left: 5px;}
+100% {left: 0px;}
+
+}
+
+.sb1{
+
+display: none;
+width: 300px;
+height: 200px;
+position: absolute;
+top: 1px;
+background-color: green;
+color: white;
+border-radius: 10px;
+
+
+
+}
+
+.sb:hover .sb1{              /*Efeito para o mouse*/
+                               
+display: inline-block;
+cursor: auto;
 
 }
 
