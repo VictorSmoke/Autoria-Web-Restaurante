@@ -11,13 +11,12 @@
         <link rel='stylesheet' type='text/css' media='screen' href='CSS/Forms_Login_Barão.css'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src='main.js'></script>
-        
 
     </head>
 
     <body>
 
-            <form action="" method="get">
+            <form action="" method="post">
 
                 <div class="L_Esc">
 
@@ -34,28 +33,28 @@
 
                     <div class="inp_di">
 
-                        <div class="di_T_input"><label class="T_input">Nome:</label></div>
-                        <div class="div_inputs"><input type="text" class="input"></div>
+                        <div class="di_T_input"><label class="T_input">E-mail:</label></div>
+                        <div class="div_inputs"><input type="email" class="input"></div>
 
                     </div>
 
                     <div class="inp_di">
 
-                        <div class="di_T_input"><label class="T_input">Telefone</label></div>
-                        <div class="div_inputs"><input type="number" class="input"></div>
+                        <div class="di_T_input"><label class="T_input">Telefone:</label></div>
+                        <div class="div_inputs"><input type="number" class="input_Tel" placeholder=" DDD (00) 0000-0000"></div>
 
                     </div>
 
                     <div class="inp_di">
 
-                        <div class="di_T_input"><label class="T_input">Endereço:</label></div>
-                        <div class="div_inputs"><input type="text" class="input"></div>
+                        <div class="di_T_input"><label class="T_input">Senha:</label></div>
+                        <div class="div_inputs"><input type="password" class="input_Tel"></div>
 
                     </div>
 
-                    <div class="inp_di" style="justify-content: right;"><input type="submit" class="Bot_acess" href="Login_realizado.html"></div>
+                    <div class="inp_di" style="justify-content: right;"><input type="submit" class="input_Enter" href="Login_realizado.html" onclick="redirecionar()"></div>
 
-                </div>
+                    <script> function redirecionar(){window.location.href = "http://127.0.0.1:3000/Login_realizado.html";}</script>
 
             </form>
 
