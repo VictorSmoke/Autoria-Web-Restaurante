@@ -16,6 +16,8 @@ body{
     background-size: cover; 
     height: 100%;
     margin: 0px;
+    
+    
 
 
 }
@@ -30,6 +32,7 @@ body{
     background-size: cover;
     display: block;
     justify-content: center;
+   
 
 }
 
@@ -77,6 +80,7 @@ body{
     position: relative;
     top: 0px;
     width: 100%;
+    padding: 5px;
 
 }
 
@@ -397,28 +401,75 @@ justify-content: center;
 
 .itemt{
 
-    background-color: blue;
+     /*Cor apenas para teste*/
     height: 305px;
     width: 300px;
     position: relative;
     top: 12px;
     border-radius: 5px;
+    background-image: url(Imagens/Ajiaco.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 300px 305px;
+    box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+     /**/
+    
 
 
 
 }
 
-.item1{
+.item1{ /*Coloquei várias classes por conta das imagens*/
 
-background-color: rgb(30, 5, 255);
+
 height: 305px;
 width: 300px;
 position: relative;
 top: 12px;
 border-radius: 5px;
-/*Apenas para rascunho/teste*/
+background-image: url(Imagens/Arroz\ conpollo.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-size: 300px 305px;
+box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+
 
 }
+
+.item2{
+
+    background-color: rgb(30, 5, 255);
+    height: 305px;
+    width: 300px;
+    position: relative;
+    top: 12px;
+    border-radius: 5px;
+    background-image: url(Imagens/ropa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 300px 305px;
+    box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+   
+    
+    }
+
+    .item3{
+
+        background-color: rgb(30, 5, 255);
+        height: 305px;
+        width: 300px;
+        position: relative;
+        top: 12px;
+        border-radius: 5px;
+        background-image: url(Imagens/tamales.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 300px 305px;
+        box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+        
+       
+        
+        }
 
 .subt{
 
@@ -474,28 +525,17 @@ color: white;
 border-radius: 10px;
 padding: 5px;
 width: 50px;
-
+transition:  width 2s; /*Efeito de transição*/
 }
 
 .sb:hover{
 
 cursor: pointer;
 background-color: rgb(196, 51, 51); /*Efeito para o mouse*/
-animation-name: animacao1;
-animation-duration: 4s;
-
+width: 90px;
 
 }
 
-@keyframes animacao1{
-
-0% {left: 0px;}
-25% {left: 5px;}
-50% {left: 0px;}
-75% {left: 5px;}
-100% {left: 0px;}
-
-}
 
 .sb1{
 
@@ -507,13 +547,14 @@ top: 1px;
 background-color: green;
 color: white;
 border-radius: 10px;
-
+transition: width 4s;
 
 
 }
 
+
 .sb:hover .sb1{              /*Efeito para o mouse*/
-                               
+    
 display: inline-block;
 cursor: auto;
 
@@ -530,7 +571,32 @@ cursor: auto;
     cursor: pointer;
     border-radius: 10px;
     padding: 5px;
-    animation-name: animacao;/**/
+    text-decoration: none;
+
+}
+
+.men-delivery{
+
+display: none;
+width: 80px;
+background-color: rgb(38, 66, 224);
+border-radius: 5px;
+
+
+}
+
+.btn_back:hover .men-delivery{
+
+
+display: block;
+position: absolute;
+
+}
+
+.a1:hover{ /*Apenas para teste*/
+
+   color: aquamarine;
+  
 
 }
 
@@ -549,5 +615,6 @@ cursor: auto;
 a{
 
     text-decoration: none;
+    color: white;
 }
 
