@@ -350,7 +350,10 @@ display: flex;
 .quadro1{
 
 height: 455px;
-display: flex;
+display: grid; /*Alterei para display:grid*/
+grid-template-columns: auto auto auto;
+column-gap: 20px;
+row-gap: 10px;
 justify-content: center;
 
 }
@@ -424,6 +427,149 @@ box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
        
         
         }
+
+        .item4{
+
+            background-color: rgb(30, 5, 255);
+            height: 305px;
+            width: 300px;
+            position: relative;
+            top: 12px;
+            border-radius: 5px;
+            background-image: url(Imagens/cubanpicadillo.jpg);/*!!!!!*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 300px 305px;
+            box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+            
+           
+            
+            }
+
+            .item5{
+
+                background-color: rgb(30, 5, 255);
+                height: 305px;
+                width: 300px;
+                position: relative;
+                top: 12px;
+                border-radius: 5px;
+                background-image: url(Imagens/chicarrones.jpg);/*!!!!!*/
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-size: 300px 305px;
+                box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+                
+               
+                
+                }
+
+                .item6{
+
+                    background-color: rgb(30, 5, 255);
+                    height: 305px;
+                    width: 300px;
+                    position: relative;
+                    top: 12px;
+                    border-radius: 5px;
+                    background-image: url(Imagens/tasajocubana.jpg);/*!!!!!*/
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-size: 300px 305px;
+                    box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+                    
+                   
+                    
+                    }
+
+                 .item7{
+                        background-color: rgb(30, 5, 255);
+                        height: 305px;
+                        width: 300px;
+                        position: relative;
+                        top: 12px;
+                        border-radius: 5px;
+                        background-image: url(Imagens/mojito.png);/*!!!!!*/
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-size: 300px 305px;
+                        box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+                        
+                       
+                        
+                        }
+
+                    .item8{
+
+                         background-color: rgb(30, 5, 255);
+                            height: 305px;
+                            width: 300px;
+                            position: relative;
+                            top: 12px;
+                            border-radius: 5px;
+                            background-image: url(Imagens/daquiri.jpg);/*!!!!!*/
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-size: 300px 305px;
+                            box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+                            
+                           
+                            
+                            }
+
+        .item9{
+
+            background-color: rgb(30, 5, 255);
+            height: 305px;
+            width: 300px;
+            position: relative;
+            top: 12px;
+            border-radius: 5px;
+            background-image: url(Imagens/daquirimorango.jpg);/*!!!!!*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 300px 305px;
+            box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+                                
+                               
+                                
+     }
+
+    .item10{
+
+     background-color: rgb(30, 5, 255);
+     height: 305px;
+     width: 300px;
+     position: relative;
+     top: 12px;
+     border-radius: 5px;
+     background-image: url(Imagens/pinacolada.jpg);/*!!!!!*/
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-size: 300px 305px;
+     box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+                            
+                           
+                            
+ }
+
+ .item11{
+
+    background-color: rgb(30, 5, 255);
+    height: 305px;
+    width: 300px;
+    position: relative;
+    top: 12px;
+    border-radius: 5px;
+    background-image: url(Imagens/cafecubano.jpg);/*!!!!!*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 300px 305px;
+    box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+                        
+                       
+                        
+}
 
 .subt{
 
