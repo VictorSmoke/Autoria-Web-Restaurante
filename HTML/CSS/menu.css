@@ -11,10 +11,10 @@ body{
 
     background-color: rgb(255, 255, 255); 
     backdrop-filter: blur(1px);
-    background-image: url(Imagens/Logomarca-COMA-MAIS-sem-fundo-HD.png);
+    background-image:  url(Imagens/logorestaurante\ copy.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 100%;
+    background-size: 100% 100%;
     margin: 0px;
     padding: 0;
 
@@ -423,7 +423,10 @@ display: flex;
 .quadro1{
 
 height: 455px;
-display: flex;
+display: grid; /*Alterei para display:grid*/
+grid-template-columns: auto auto auto;
+column-gap: 20px;
+row-gap: 10px;
 justify-content: center;
 align-items: center;
 flex-grow: 1;

@@ -12,6 +12,12 @@ body{
 
 }
 
+*{
+
+    border: 0px solid black;
+
+}
+
 input{
 
     outline: 0 none;
