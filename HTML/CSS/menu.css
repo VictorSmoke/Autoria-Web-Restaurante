@@ -428,90 +428,89 @@ box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
         
         }
 
-        .item4{
+.item4{
 
-            background-color: rgb(30, 5, 255);
-            height: 305px;
-            width: 300px;
-            position: relative;
-            top: 12px;
-            border-radius: 5px;
-            background-image: url(Imagens/cubanpicadillo.jpg);/*!!!!!*/
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-size: 300px 305px;
-            box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+ background-color: rgb(30, 5, 255);
+ height: 305px;
+ width: 300px;
+ position: relative;
+ top: 12px;
+ border-radius: 5px;
+ background-image: url(Imagens/cubanpicadillo.jpg);/*!!!!!*/
+ background-repeat: no-repeat;
+ background-size: cover;
+ /*background-size: 300px 305px;*/
+ box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
             
            
             
             }
 
-            .item5{
+.item5{
 
-                background-color: rgb(30, 5, 255);
-                height: 305px;
-                width: 300px;
-                position: relative;
-                top: 12px;
-                border-radius: 5px;
-                background-image: url(Imagens/chicarrones.jpg);/*!!!!!*/
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-size: 300px 305px;
-                box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+background-color: rgb(30, 5, 255);
+height: 305px;
+width: 300px;
+position: relative;
+top: 12px;
+border-radius: 5px;
+background-image: url(Imagens/chicarrones.jpg);/*!!!!!*/
+background-repeat: no-repeat;
+ background-size: cover;
+/*background-size: 300px 305px;*/
+box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
                 
                
                 
-                }
+}
 
-                .item6{
+.item6{
 
-                    background-color: rgb(30, 5, 255);
-                    height: 305px;
-                    width: 300px;
-                    position: relative;
-                    top: 12px;
-                    border-radius: 5px;
-                    background-image: url(Imagens/tasajocubana.jpg);/*!!!!!*/
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-size: 300px 305px;
-                    box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+background-color: rgb(30, 5, 255);
+height: 305px;
+width: 300px;
+position: relative;
+top: 12px;
+border-radius: 5px;
+background-image: url(Imagens/tasajocubana.jpg);/*!!!!!*/
+background-repeat: no-repeat;
+background-size: cover;
+background-size: 300px 305px;
+box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
                     
                    
                     
                     }
-
-                 .item7{
-                        background-color: rgb(30, 5, 255);
-                        height: 305px;
-                        width: 300px;
-                        position: relative;
-                        top: 12px;
-                        border-radius: 5px;
-                        background-image: url(Imagens/mojito.png);/*!!!!!*/
-                        background-repeat: no-repeat;
-                        background-size: cover;
-                        background-size: 300px 305px;
-                        box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+.item7{
+    background-color: rgb(30, 5, 255);
+    height: 305px;
+    width: 300px;
+    position: relative;
+    top: 12px;
+    border-radius: 5px;
+    background-image: url(Imagens/mojito-cubano.jpg);/*!!!!!*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
                         
                        
                         
                         }
 
-                    .item8{
+    .item8{
 
-                         background-color: rgb(30, 5, 255);
-                            height: 305px;
-                            width: 300px;
-                            position: relative;
-                            top: 12px;
-                            border-radius: 5px;
-                            background-image: url(Imagens/daquiri.jpg);/*!!!!!*/
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-size: 300px 305px;
-                            box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+    background-color: rgb(30, 5, 255);
+    height: 305px;
+    width: 300px;
+    position: relative;
+    top: 12px;
+    border-radius: 5px;
+    background-image: url(Imagens/daquiri.jpg);/*!!!!!*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 300px 305px;
+    box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
                             
                            
                             
@@ -597,10 +596,9 @@ box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
     position: relative;
     top: 12px;
     border-radius: 5px;
-    background-image: url(Imagens/brazo-gitano.jpg);/*!!!!!*/
+    background-image: url(Imagens/brazo-de-gitano.jpg);/*!!!!!*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 300px 305px;
     box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
                         
                        
@@ -615,7 +613,7 @@ box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
     position: relative;
     top: 12px;
     border-radius: 5px;
-    background-image: url(Imagens/capuchinoCubano.jpg);/*!!!!!*/
+    background-image: url(Imagens/Capuchinos-jpg.jpeg);/*!!!!!*/
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 300px 305px;
@@ -624,6 +622,79 @@ box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
                        
                         
 }
+
+.item15{
+
+    background-color: rgb(30, 5, 255);
+    height: 305px;
+    width: 300px;
+    position: relative;
+    top: 12px;
+    border-radius: 5px;
+    background-image: url(Imagens/bunuelos-de-viento-.jpg);/*!!!!!*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-size: 300px 305px;*/
+    box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+                        
+                       
+                        
+}
+
+.item16{
+
+    background-color: rgb(30, 5, 255);
+    height: 305px;
+    width: 300px;
+    position: relative;
+    top: 12px;
+    border-radius: 5px;
+    background-image: url(Imagens/senorita2.jpg);/*!!!!!*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-size: 300px 305px;*/
+    box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+                        
+                       
+                        
+}
+
+.item17{
+
+    background-color: rgb(30, 5, 255);
+    height: 305px;
+    width: 300px;
+    position: relative;
+    top: 12px;
+    border-radius: 5px;
+    background-image: url(Imagens/tocinillo-cielo.jpg);/*!!!!!*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 300px 305px;
+    box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+                        
+                       
+                        
+}
+
+.item18{
+
+    background-color: rgb(30, 5, 255);
+    height: 305px;
+    width: 300px;
+    position: relative;
+    top: 12px;
+    border-radius: 5px;
+    background-image: url(Imagens/patacao.jpg);/*!!!!!*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-size: 300px 305px;*/
+    box-shadow: rgb(182, 182, 182) -5px 5px; /*Para efeito de sombra*/
+                        
+                       
+                        
+}
+
 
 .subt{
 
@@ -701,6 +772,7 @@ background-color: green;
 color: white;
 border-radius: 10px;
 transition: width 4s;
+padding: 5px;
 
 
 }
@@ -709,13 +781,14 @@ transition: width 4s;
 
     display: none;
     width: 300px;
-    height: 100px;
+    height: 110px;
     position: absolute;
     top: 1px;
     background-color: green;
     color: white;
     border-radius: 10px;
     transition: width 4s;
+    padding: 5px;
 
 }
 
