@@ -25,7 +25,7 @@ header{
     justify-content: center;
     align-items: center;
     display: flex;
-    margin: 0;
+    margin: 0 auto;
 
 }
 
@@ -41,9 +41,11 @@ header img{
 
 }
 
-.h1{
+.recepicão_tela_Inicial{
 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
     color: white;
+
 }
 
 main{
@@ -55,6 +57,7 @@ main{
 
 footer{
 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
     background-color: rgb(38, 66, 224);
     border-radius: 360px 360px 0px 0px;
     bottom: 0;
@@ -68,6 +71,7 @@ footer{
 
 .link-cabeçalho{
 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
     text-decoration: none;
     color: #fff;
     font-weight: 800;
@@ -107,6 +111,17 @@ footer{
 
 }
 
+.alinhamento_flexdirection{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 50%; 
+    left: 50%;
+    flex-direction: column;
+
+}
+
 .block{
 
     display: block;
@@ -126,6 +141,82 @@ footer{
 .redes-so a{
 
     margin-left: 15px;
+
+}
+
+main div{
+
+    border: black solid 3px;
+
+}
+
+.slider{ 
+
+    margin-top: 100px;
+    width: 400px; 
+    height: 300px; 
+    margin: auto; 
+    overflow: hidden;
+    position: relative;
+
+}
+
+.slider img { 
+
+    width: 400px;
+    height: 300px;
+
+}
+
+.indicators { 
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px; 
+
+} 
+
+.indicators input {
+
+    border: solid 2px white;
+    cursor: pointer; 
+    height: 10px; 
+    width: 10px; 
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 50%; 
+    transition: 1s;
+    overflow: hidden;
+
+}
+
+#ra1:checked ~ .first{
+
+    background-color: #ffff;
+    margin-left: 0;
+
+}
+
+#ra2:checked ~ .first{
+
+    background-color: #ffff;
+    margin-left: -25%;
+
+}
+
+#ra3:checked ~ .first{
+
+    background-color: #ffff;
+    margin-left: -50%;
+
+}
+
+#ra4:checked ~ .first{
+
+    background-color: #ffff;
+    margin-left: -75%;
 
 }
 

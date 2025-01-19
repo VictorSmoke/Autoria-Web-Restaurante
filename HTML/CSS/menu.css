@@ -14,22 +14,43 @@ body{
     background-image:  url(Imagens/logorestaurante\ copy.jpeg);
     background-repeat: no-repeat;
     background-size: cover; 
-    background-size: 100% 100%;
-    margin: 0px;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
     padding: 0;
 
 }
 
 footer{
-
+    
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
     background-color: rgb(38, 66, 224);
     border-radius: 360px 360px 0px 0px;
     bottom: 0;
     width: 100%;
     text-align: center;
     color: white;
-    padding: 2rem 0;
+    padding: 0;
     flex-grow: 0;
+
+}
+
+footer section{
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+
+main{
+
+    flex-grow: 1;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
 }
 
@@ -37,7 +58,7 @@ footer{
 
     background-color: white, linear-gradient(rgba(20,20,20,0.7), rgba(100,100,100,0.3)); 
     backdrop-filter: blur(1px);
-    background-image: url(Imagens/Logomarca-COMA-MAIS-sem-fundo-HD.png);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -98,10 +119,11 @@ footer{
     box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.8);
     background-color: rgb(38, 66, 224);
     z-index: 1;
-    position: relative;
+    position: fixed;
     top: 0px;
     width: 100%;
     padding: 5px;
+    flex-grow: 1;
 
 }
 
@@ -152,6 +174,7 @@ footer{
 
 .h1-header{
 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
     color: #fff;
     font-size: arial;
     padding-left: 5px;
@@ -380,6 +403,7 @@ display: flex;
 
 .descricao_sobre{
 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
@@ -420,13 +444,17 @@ display: flex;
 
 }
 
+.alinhamento_flexdirection .itemt:hover{
+
+    transform: scale(1.1);
+    transition: transform 0.5s;
+
+}
+
 .quadro1{
 
 height: 455px;
-display: grid; /*Alterei para display:grid*/
-grid-template-columns: auto auto auto;
-column-gap: 20px;
-row-gap: 10px;
+display: flex;
 justify-content: center;
 align-items: center;
 flex-grow: 1;
@@ -481,6 +509,7 @@ text-align: center;
 height: 20px;
 width: 100px;
 background-color: green;
+color: white;
 border-radius: 2px; 
 font-family: cursive;
 padding: 1px;
@@ -558,13 +587,28 @@ cursor: auto;
 
 }
 
+.btn_back_menu{
+
+    transition: all 5s ease 0;
+    background-color: rgb(38, 66, 224);
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
 .men-delivery{
 
 display: none;
 width: 80px;
-background-color: rgb(38, 66, 224);
+background-color: rgb(9, 4, 80);
 border-radius: 5px;
-
+flex-direction: column;
+align-items: center;
 
 }
 
@@ -576,10 +620,25 @@ position: absolute;
 
 }
 
+.a1{
+
+    background-color: rgb(9, 4, 80);
+
+}
+
 .a1:hover{ /*Apenas para teste*/
 
-   color: aquamarine;
-  
+    color: aquamarine;
+
+}
+
+.a1-div{
+
+    text-align: center;
+    width: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
 
 }
 
