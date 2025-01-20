@@ -1,6 +1,6 @@
 *{
 
-    border: 0px solid black;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -254,13 +254,6 @@ a{
 
 }
 
-@media screen {
-
-
-
-    
-}
-
 h4{
 
     animation: up 1s step-start;
@@ -274,4 +267,11 @@ input:focus{
     border: 3px solid #081c72;
     background-color: white;
 
+}
+
+@media screen {
+
+
+
+    
 }

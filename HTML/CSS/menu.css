@@ -1,6 +1,5 @@
 *{
 
-    border: 0px solid black;
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +24,6 @@ footer{
     
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
     background-color: rgb(38, 66, 224);
-    border-radius: 360px 360px 0px 0px;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -37,8 +35,8 @@ footer{
 
 footer section{
 
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 
 }
 
@@ -63,9 +61,18 @@ main{
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 0;
     margin: 0;
+
+}
+
+.div-text img{
+
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
 
 }
 
@@ -100,6 +107,12 @@ main{
     top: 50%; 
     left: 50%;
     flex-direction: column;
+
+}
+
+.borda{
+
+    border: 3px solid black;
 
 }
 
@@ -222,130 +235,6 @@ main{
 
 }
 
-.q2{
-
-    padding-top: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 170px;
-    background-color: rgb(180, 161, 161);
-
-}
-
-.lg1{
-
-    font-size: 18px;
-    position: absolute;
-    left: 550px;
-
-}
-
-.lg2{
-
-font-size: 18px;
-position: absolute;
-left: 550px;
-bottom: 1125px;
-
-}
-
-.lg3{
-
-    font-size: 18px;
-    position: absolute;
-    left: 550px;
-    bottom: 1070px;
-
-}
-
-.lg4{
-
-    font-size: 18px;
-    position: absolute;
-    left: 750px;
-    top: 370px;
-    border-radius: 10px;
-
-}
-
-.qdescri{
-
-    text-align: left;
-    margin-left: 10px;
-    margin-top: 5px;
-    width: 81%;
-    height: 110px;
-    background-color: red;
-    color: white;
-
-}
-
-.tituloagr{
-
-    font-weight: 600;
-    font-size: 10;
-    color: black;
-    margin-top: 10px;
-    margin-left: 25px;
-    margin-right: 10px;
-    text-align: left;
-
-}
-
-.menu-detalhado{
-
-    font-weight: 600;
-    font-size: 10;
-    color: white;
-    text-align: center;
-    width: 100%;
-    margin-top: -20px;
-
-}
-
-.produtos{
-
-    text-align: center;
-    margin-left: 10px;
-    margin-top: 5px;
-    width: 100px;
-    height: 110px;
-    background-color: red;
-
-}
-
-.tp{
-
-    font-weight: 600;
-    font-size: 10;
-    color: white;
-    background-color: red;
-    text-align: center;
-
-}
-
-.produtos img{
-
-    border-style: solid;
-    border-color: red;
-    border-width: 3px;
-    width: 100px;
-    height: 105px;
-
-}
-
-.preço{
-
-    margin-left: 450px;
-    margin-top: 65px;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    color: black;
-    text-align: center;
-    width: 60px;
-
-}
-
 .block{
 
     display: block;
@@ -369,20 +258,9 @@ margin-bottom: 100px;
 
 }
 
-.cama{
+.flex-grow{
 
-width: 1000px;
-height: 35px;
-display: flex;
-text-align: center;
-align-items: center;
-justify-content: center;
-background-color: black;
-color: white;
-position: absolute;
-border-radius: 10px;
-flex-grow: 0;
-bottom: 0;
+    flex-grow: 1;
 
 }
 
@@ -423,14 +301,6 @@ display: flex;
 
     margin-left: 15px;
 
-}
-
-
-.div-text:hover{ /*Quero empregar este efeito, mas não está funcionando*//*Animation*/
-
-    animation-name: anime;
-    animation-duration: 1s;
-    animation-iteration-count: 2;
 }
 
 @keyframes anime{
@@ -613,7 +483,6 @@ align-items: center;
 }
 
 .btn_back:hover .men-delivery{
-
 
 display: block;
 position: absolute;
