@@ -1,6 +1,12 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 body{
 
-    background-image: url(Imagens/Logomarca-COMA-MAIS-sem-fundo-HD.png);
+    background-image: url();
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
@@ -9,12 +15,6 @@ body{
     padding: 100px 0;
     margin: 0;
     font-family: "Open Sans", "Lato", sans-serif;
-
-}
-
-*{
-
-    border: 0px solid black;
 
 }
 
@@ -171,6 +171,7 @@ a{
 
 .di_T_input{
 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
     width: 70px;
     justify-content: left;
     display: flex;
@@ -180,6 +181,7 @@ a{
 
 .login_T{
 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
     margin-bottom: -90px;
     color: white;
     font-size: 1.8rem;
@@ -193,6 +195,7 @@ a{
 
 .Acess_T{
 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
     margin-left: -3px;
     color: white;
     font-weight: 900;
@@ -251,13 +254,6 @@ a{
 
 }
 
-@media screen {
-
-
-
-    
-}
-
 h4{
 
     animation: up 1s step-start;
@@ -271,4 +267,11 @@ input:focus{
     border: 3px solid #081c72;
     background-color: white;
 
+}
+
+@media screen {
+
+
+
+    
 }

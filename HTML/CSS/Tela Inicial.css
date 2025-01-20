@@ -1,71 +1,208 @@
+*{
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
 body{
 
-    background-image:  url(Imagens/CubaFundo.jpeg);
-    background-repeat: repeat;
-    background-size: cover;
     margin: 0;
-    font-family: Arial, sans-serif;
-    padding-top: 200px;
     padding-bottom: 0px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     min-height: 100vh;
 
 }
 
-header{
+a{
 
-    background-color: rgb(38, 66, 224);
-    z-index: 1000;
-    position: absolute;
-    top: -10px;
-    left: 0px;
-    width: 100%;
-    padding: 2rem 0;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+main{
+
+    border: solid black 3px;
+    flex-grow: 1;
+    text-align: center;
+    background-image:  url(Imagens/CubaFundo.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+    margin-top: 0;
+    height: 200vh;
+    margin-top: -50px;
 
 }
 
-header img{
+footer{
+
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
+    background-color: rgb(38, 66, 224);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    flex-grow: 0;
+
+}
+
+footer section{
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+img{
+
+    object-fit: cover;
+    height: 500px;
+    width: 600px;
+
+}
+
+.borda{
+
+    border: 3px solid black;
+
+}
+
+#header_Delivery{
+
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.8);
+    background-color: rgb(38, 66, 224);
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 1rem 0;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+#header_Delivery img{
 
     margin-left: 10px;
     margin-right: 10px;
     width: 100px;
     height: 100px;
     border-radius: 10px;
-    padding: 0;
-    margin: 0;
 
 }
 
-.h1{
+.header-content{
 
-    color: white;
-}
-
-main{
-
-    flex-grow: 1;
-    text-align: center;
+    width: 90%;
 
 }
 
-footer{
+.h1-header{
 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+
+}
+
+.men-delivery{
+
+    display: none;
+    width: 80px;
+    background-color: rgb(9, 4, 80);
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.btn_back:hover .men-delivery{
+
+    display: block;
+    position: absolute;
+    
+}
+
+.btn_back{
+
+    transition: all 5s ease 0;
     background-color: rgb(38, 66, 224);
-    border-radius: 360px 360px 0px 0px;
-    bottom: 0;
-    width: 100%;
     text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.btn_back_menu{
+
+    transition: all 5s ease 0;
+    background-color: rgb(38, 66, 224);
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.div_btn_back{ /**/
+
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    bottom: 0;
+
+}
+
+.a1{
+
+    background-color: rgb(9, 4, 80);
+
+}
+
+.a1:hover{ /*Apenas para teste*/
+
+    color: aquamarine;
+
+}
+
+.a1-div{
+
+    text-align: center;
+    width: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+}
+
+.recepicão_tela_Inicial{
+
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
     color: white;
-    padding: 10px 0;
 
 }
 
 .link-cabeçalho{
 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
     text-decoration: none;
     color: #fff;
     font-weight: 800;
@@ -105,6 +242,17 @@ footer{
 
 }
 
+.alinhamento_flexdirection{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 50%; 
+    left: 50%;
+    flex-direction: column;
+
+}
+
 .block{
 
     display: block;
@@ -124,6 +272,23 @@ footer{
 .redes-so a{
 
     margin-left: 15px;
+
+}
+
+.slider{ 
+
+    box-shadow: -2px 2px 4px black;
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+
+}
+
+.slides{
+
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
 
 }
 
