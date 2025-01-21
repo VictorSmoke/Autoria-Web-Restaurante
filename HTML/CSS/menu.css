@@ -408,6 +408,7 @@ text-align: center;
     display: none;
     width: 300px;
     height: 200px;
+    position: relative; /***/
     top: 1px;
     background-color: green;
     color: white;
@@ -422,8 +423,8 @@ text-align: center;
     
         display: none;
         width: 300px;
-        height: 110px;
-        position: absolute;
+        height: 110px; /*Menor altura de fundo*/
+        position: relative;
         top: 1px;
         background-color: green;
         color: white;
@@ -562,5 +563,15 @@ a{
 
     text-decoration: none;
     color: white;
+}
+
+/*Para a página "Sobre"*/
+
+.animacome:hover{
+
+    transform: scale(1.1);
+    transition: transform 0.5s;
+
+
 }
 

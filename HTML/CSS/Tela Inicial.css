@@ -28,12 +28,14 @@ main{
     border: solid black 3px;
     flex-grow: 1;
     text-align: center;
-    background-image:  url(Imagens/CubaFundo.jpeg);
+    background-image: url(Imagens/CubaFundo.jpeg);
     background-repeat: repeat;
     background-size: cover;
     margin-top: 0;
     height: 200vh;
     margin-top: -50px;
+    backdrop-filter: 20px;
+
 
 }
 
