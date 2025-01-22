@@ -102,13 +102,47 @@ a {
   text-decoration: none;
 }
 
+.men-delivery {
+  display: none;
+  width: 80px;
+  background-color: rgb(9, 4, 80);
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn_back:hover .men-delivery {
+  display: block;
+  position: absolute;
+}
+
+.a1 {
+  background-color: rgb(9, 4, 80);
+  color: white;
+}
+
+.a1:hover {
+  /*Apenas para teste*/
+
+  color: aquamarine;
+}
+
+.a1-div {
+  text-align: center;
+  width: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
 .img_login {
-  width: 200px;
-  height: 200px;
+  width: 215px;
+  height: 215px;
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 0;
+  margin-top: 2px;
   padding: 0;
 }
 
@@ -264,6 +298,7 @@ a {
   display: block;
   margin-block-start: 2.23em;
   margin-block-end: 0em;
+  animation: up 1s;
 }
 
 .Acess_T {
