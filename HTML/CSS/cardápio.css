@@ -1,12 +1,13 @@
-.cardapio{
-
-    border: solid black 2px;
-    width: 800px;
-    height: 1700px;
-    background-color: aqua;
-    border-radius: 10px;
-    box-shadow: -2px 2px 4px black;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
+.cardapio {
+  border: solid black 2px;
+  width: 800px;
+  height: 1700px;
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: -2px 2px 4px black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: url(Imagens/cardápio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
