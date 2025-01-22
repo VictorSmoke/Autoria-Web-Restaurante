@@ -33,6 +33,15 @@ input{
 
 }    
 
+@media(max-width:900px){/*RESPONSIVIDADE DOS INPUTS*/
+
+    input{
+
+        width: 200px;
+    }
+
+}
+
 form{
 
     border-radius: 15px;
@@ -44,6 +53,19 @@ form{
     display: flex;
 
 }
+
+@media (max-width:900px) {/*RESPOSNSIVIDADE DA CONFIGURAÇÃO FORM*/
+    
+form{
+
+    height: 400px;
+    width: 100%;
+
+}
+
+}
+
+
 
 div{
 
@@ -108,6 +130,16 @@ a{
 
 }
 
+@media (max-width:900px){/*RESPONSIVIDADE DA CONFIGURAÇÃO L_Esc*/
+
+    .L_Esc{
+
+        width: 35%;
+        
+    }
+
+}
+
 .btn_back{
 
     transition: all 5s ease 0;
@@ -157,6 +189,16 @@ a{
     flex-direction: column;
     justify-content: left;
     align-items: center;
+
+}
+
+@media (max-width:900px){
+
+    .inp_di{
+
+        width: 95%;
+        
+    }
 
 }
 
@@ -269,9 +311,4 @@ input:focus{
 
 }
 
-@media screen {
 
-
-
-    
-}
