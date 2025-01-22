@@ -1,6 +1,6 @@
 * {
   padding: 0;
-  margin: 0px;
+  margin: 0px solid black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -119,18 +119,19 @@ main {
 }
 
 #header_Delivery {
+  /**/
+
   box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.8);
-  background-color: rgb(28, 40, 66);
+  background-color: rgb(38, 66, 224);
   z-index: 1;
   position: relative;
   top: 0px;
   width: 100%;
   padding: 1rem 0;
   flex-grow: 1;
-  display: flex;
+  margin-top: 5px;
   height: 10%;
   float: left;
-  justify-content: center;
 }
 
 #header_Delivery img {
@@ -141,12 +142,9 @@ main {
   border-radius: 10px;
 }
 
-.header-content {
-  width: 90%;
-  justify-content: space-between;
-}
-
 .conteudo__Delivery {
+  /**/
+
   display: flex;
   justify-content: center;
   /*align-items: center;*/
@@ -163,6 +161,16 @@ main {
   padding-left: 5px;
   padding-top: 3px;
   padding-bottom: 1px;
+}
+
+.link-cabeçalho {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 5px;
+  word-spacing: 5px;
+  font-size: 16px;
+  font-family: arial;
+  cursor: pointer;
 }
 
 .link-cabeçalho {
@@ -422,6 +430,155 @@ main {
   color: white;
 }
 
+.quadro1 {
+  /*height: 455px;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*align-items: center;*/
+  flex-grow: 1;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /*flex-wrap: wrap;*/ /*Define se os elementos podem ser "quebrados" em outras linhas*/
+}
+
+.itemt {
+  height: 305px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: -5px 8px 0px rgba(0, 0, 0, 0.8);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.itemt img {
+  z-index: 1;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.subt {
+  background-color: orange;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px 5px 0px 0px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.w {
+  height: 140px;
+  width: 130px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.alinhamento_flexdirection {
+  /*ATENÇÃO!!!!!*/
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  flex-direction: column;
+  margin: 10px;
+
+  /*flex-grow: 1;*/
+  /*flex-basis: 300;*/
+}
+
+@media (max-width: 50%) {
+  .alinhamento_flexdirection {
+    display: block;
+    width: 100%;
+  }
+}
+
+.sb {
+  margin-bottom: 10px;
+  background-color: rgb(252, 67, 67);
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  width: 50px;
+  transition: width 2s; /*Efeito de transição*/
+  height: 20px;
+}
+
+.sb:hover {
+  cursor: pointer;
+  background-color: rgb(196, 51, 51); /*Efeito para o mouse*/
+  width: 90px;
+}
+
+.sb1 {
+  display: none;
+  width: 300px;
+  height: 200px;
+  position: relative; /***/
+  top: 1px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  transition: width 2s;
+  z-index: 1000;
+  padding: 5px;
+  position: relative;
+}
+
+.sb2 {
+  /*Para ajustar o tamanho de fundo de outros textos*/
+
+  display: none;
+  width: 300px;
+  height: 110px; /*Menor altura de fundo*/
+  position: relative;
+  top: 1px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  transition: width 2s;
+  padding: 5px;
+  z-index: 1000; /*Observar depois!!!!*/
+}
+
+.sb:hover .sb1 {
+  /*Efeito para o mouse*/
+
+  display: inline-block;
+  cursor: auto;
+}
+
+.sb:hover .sb2 {
+  /*Efeito para o mouse*/
+
+  display: inline-block;
+  cursor: auto;
+}
+
+.bot {
+  height: 20px;
+  width: 100px;
+  background-color: green;
+  color: white;
+  border-radius: 2px;
+  font-family: cursive;
+  padding: 1px;
+  margin-bottom: 10px;
+}
+
+.botf {
+  cursor: pointer;
+  height: 20px;
+  width: 150px;
+  background-color: green;
+  border-radius: 2px;
+  font-family: cursive;
+  padding: 1px;
+  color: white;
+}
+
 /*Para o botão "voltar"*/
 .btn_back {
   transition: all 5s ease 0;
@@ -501,6 +658,11 @@ a {
 .animacome:hover {
   transform: scale(1.1);
   transition: transform 0.5s;
+
+  .animacome:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  }
 }
 
 @media (max-width: 900px) {
@@ -517,4 +679,13 @@ a {
   text-align: center;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
   font-size: 50px;
+}
+
+@media (max-width: 900px) {
+  /*RESPONSIVIDADE*/
+
+  .div-text {
+    width: 400px;
+    height: auto;
+  }
 }

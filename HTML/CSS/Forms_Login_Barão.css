@@ -54,6 +54,47 @@ form {
 }
 
 div {
+  input {
+    width: 200px;
+  }
+}
+
+form {
+  border-radius: 15px;
+  background-color: transparent;
+  height: 600px;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  /*RESPONSIVIDADE DA CONFIGURAÇÃO L_Esc*/
+
+  .L_Esc {
+    width: 35%;
+  }
+}
+
+.btn_back {
+  transition: all 5s ease 0;
+  background-color: rgb(38, 66, 224);
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  animation-name: animacao;
+
+  form {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+div {
   border: solid black 0px;
 }
 
@@ -71,8 +112,17 @@ a {
   padding: 0;
 }
 
-.borda {
-  border: 3px solid black;
+@media (max-width: 900px) {
+  .inp_di {
+    width: 95%;
+  }
+}
+
+.T_input {
+  cursor: auto;
+  color: white;
+  margin-bottom: -30px;
+  font-size: small;
 }
 
 .input_Tel {
@@ -249,6 +299,37 @@ a {
 .Bot_acess:hover {
   animation-duration: 4s;
   animation-iteration-count: infinite;
+}
+
+@keyframes animacao {
+  0% {
+    background-color: #081c72;
+  }
+  50% {
+    background-color: rgb(29, 15, 155);
+  }
+  100% {
+    background-color: #081c72;
+  }
+}
+
+@keyframes up {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+h4 {
+  animation: up 1s step-start;
+  animation-delay: 0.1s;
 }
 
 @keyframes animacao {
