@@ -15,6 +15,7 @@ body {
   background-size: 100%;
   display: flex;
   flex-direction: column;
+  margin: 0;
   padding: 0;
 }
 
@@ -108,6 +109,7 @@ main {
   flex-grow: 1;
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 #header img {
@@ -122,16 +124,17 @@ main {
   /**/
 
   box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.8);
-  background-color: rgb(38, 66, 224);
+  background-color: rgb(28, 40, 66);
   z-index: 1;
   position: relative;
   top: 0px;
   width: 100%;
   padding: 1rem 0;
   flex-grow: 1;
-  margin-top: 5px;
   height: 10%;
   float: left;
+  display: flex;
+  justify-content: center;
 }
 
 #header_Delivery img {
@@ -140,6 +143,11 @@ main {
   width: 100px;
   height: 100px;
   border-radius: 10px;
+}
+
+.header-content {
+  width: 85%;
+  justify-content: space-between;
 }
 
 .conteudo__Delivery {
