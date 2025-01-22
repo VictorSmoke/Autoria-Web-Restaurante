@@ -53,12 +53,6 @@ form {
   }
 }
 
-div {
-  input {
-    width: 200px;
-  }
-}
-
 form {
   border-radius: 15px;
   background-color: transparent;
@@ -88,10 +82,6 @@ form {
   padding: 10px;
   animation-name: animacao;
 
-  form {
-    height: 400px;
-    width: 100%;
-  }
 }
 
 div {
