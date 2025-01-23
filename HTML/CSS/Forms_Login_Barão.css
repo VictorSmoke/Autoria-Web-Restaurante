@@ -1,195 +1,110 @@
-*{
-
-    font-family: Arial, Helvetica, sans-serif;
-
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-
-    background-image: url(Imagens/logorestaurante\ copy.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding: 100px 0;
-    margin: 0;
-    font-family: "Open Sans", "Lato", sans-serif;
-
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 100px 0;
+  margin: 0;
+  font-family: "Open Sans", "Lato", sans-serif;
 }
 
-input{
-
-    outline: 0 none;
-    display: flex;
-    background-color: white;
-    border-radius: 5px;
-    border: 3px solid white;
-    font-size: 100%;
-    width: 250px;
-    height: 40px;
-    cursor: text;
-    margin: 0;
-
-}    
-
-@media(max-width:900px){/*RESPONSIVIDADE DOS INPUTS*/
-
-    input{
-
-        width: 200px;
-    }
-
+input {
+  outline: 0 none;
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid white;
+  font-size: 100%;
+  width: 250px;
+  height: 40px;
+  cursor: text;
+  margin: 0;
 }
 
-form{
+@media (max-width: 900px) {
+  /*RESPONSIVIDADE DOS INPUTS*/
 
-    border-radius: 15px;
-    background-color: transparent;
-    height: 600px;
-    width: 60%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-
+  input {
+    width: 200px;
+  }
 }
 
-@media (max-width:900px) {/*RESPOSNSIVIDADE DA CONFIGURAÇÃO FORM*/
-    
-form{
+form {
+  border-radius: 15px;
+  background-color: transparent;
+  height: 600px;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 
+@media (max-width: 900px) {
+  /*RESPOSNSIVIDADE DA CONFIGURAÇÃO FORM*/
+
+  form {
     height: 400px;
     width: 100%;
-
+  }
 }
 
-}
-
-
-
-div{
-
-    border: solid black 0px;
-
-}
-
-a{
-
-    text-decoration: none;
-}
-
-.input_Enter{
-
-    transition: all 5s ease 0;
-    background-color: #081c72;
-    border: 3px solid #081c72;
-    text-align: center;
-    justify-content: center;
-    color: #ffffff;
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 10px;
-    animation-name: animacao;
-    display: flex;
-    border-radius: 5px;
-    font-size: 100%;
-    width: 100%;
-    height: 40px;
-    margin: 0;
-
-}
-
-.input_Tel{
-
-    outline: 0 none;
-    display: flex;
-    background-color: white;
-    border-radius: 5px;
-    border: 3px solid white;
-    font-size: 100%;
+div input{
+   
     width: 200px;
-    height: 40px;
-    margin-top: 2px;
-    letter-spacing: normal;
-    cursor: text;
-    margin: 0;
-
+  
 }
 
-.L_Esc{
-
-    box-shadow: -5px 8px 0px rgba(0, 0, 0, 0.8);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(38, 66, 224);
-    width: 45%;
-    height: 80%;
-    border-radius: 10px 0px 0px 10px;
-    z-index: 1;
-
+form {
+  border-radius: 15px;
+  background-color: transparent;
+  height: 600px;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
-@media (max-width:900px){/*RESPONSIVIDADE DA CONFIGURAÇÃO L_Esc*/
+@media (max-width: 900px) {
+  /*RESPONSIVIDADE DA CONFIGURAÇÃO L_Esc*/
 
-    .L_Esc{
-
-        width: 35%;
-        
-    }
-
+  .L_Esc {
+    width: 35%;
+  }
 }
 
-.btn_back{
-
-    transition: all 5s ease 0;
-    background-color: rgb(38, 66, 224);
-    text-align: center;
-    justify-content: center;
-    color: #ffffff;
-    cursor: pointer;
-    border-radius: 10px;
-    padding: 10px;
-    animation-name: animacao;
-
+.btn_back {
+  transition: all 5s ease 0;
+  background-color: rgb(38, 66, 224);
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  animation-name: animacao;
 }
 
-.div_btn_back{
-
-    width: 87%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    bottom: 0;
-
+div {
+  border: solid black 0px;
 }
 
-.di_inputs{
-    
-    box-shadow: -5px 8px 0px rgba(0, 0, 0, 0.8);
-    border-radius: 0px 10px 10px 0px;
-    background-color: red;
-    width: 45%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+a {
+  text-decoration: none;
 }
 
-.inp_di{
-
-    width: 87%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: grid;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-
+.img_login {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width:900px){/*RESPONSIVIDADE DA CONFIGURAÇÃO inp_di*/
@@ -202,113 +117,253 @@ a{
 
 }
 
-.T_input{
-
-    cursor: auto;
-    color: white;
-    margin-bottom: -30px;
-    font-size: small;
-
+.T_input {
+  cursor: auto;
+  color: white;
+  margin-bottom: -30px;
+  font-size: small;
 }
 
-.di_T_input{
-
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
-    width: 70px;
-    justify-content: left;
-    display: flex;
-    margin-bottom: 15px;
-
+.input_Tel {
+  outline: 0 none;
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid white;
+  font-size: 100%;
+  width: 200px;
+  height: 40px;
+  margin-top: 2px;
+  letter-spacing: normal;
+  cursor: text;
+  margin: 0;
 }
 
-.login_T{
-
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
-    margin-bottom: -90px;
-    color: white;
-    font-size: 1.8rem;
-    font-weight: 900;
-    text-align: center;
-    display: block;
-    margin-block-start: 2.23em;
-    margin-block-end: 0em;
-
+.L_Esc {
+  box-shadow: -5px 8px 0px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(28, 40, 66);
+  width: 45%;
+  height: 80%;
+  border-radius: 10px 0px 0px 10px;
+  z-index: 1;
 }
 
-.Acess_T{
+@media (max-width: 900px) {
+  /*RESPONSIVIDADE DA CONFIGURAÇÃO L_Esc*/
 
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
-    margin-left: -3px;
-    color: white;
-    font-weight: 900;
-    margin-bottom: .5rem;
-    text-align: center;
-    display: block;
-    font-size: 0.9em;
-    unicode-bidi: isolate;
-
+  .L_Esc {
+    width: 35%;
+  }
 }
 
-.Bot_acess{
+.btn_back {
+  transition: all 5s ease 0;
+  background-color: rgb(28, 40, 66);
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  animation-name: animacao;
+}
 
-    transition: all 5s ease 0;
+.div_btn_back {
+  width: 87%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  bottom: 0;
+}
+
+.di_inputs {
+  box-shadow: -5px 8px 0px rgba(0, 0, 0, 0.8);
+  border-radius: 0px 10px 10px 0px;
+  background-color: rgb(141, 27, 34);
+  width: 45%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inp_di {
+  width: 87%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .inp_di {
+    width: 95%;
+  }
+}
+
+.inp_di-btn {
+  background-color: rgb(141, 27, 34);
+  width: 87%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.input_Enter {
+  transition: all 5s ease 0;
+  background-color: rgb(28, 40, 66);
+  border: 3px solid rgb(28, 40, 66);
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+  animation-name: animacao;
+  display: flex;
+  border-radius: 5px;
+  font-size: 100%;
+  width: 75px;
+  height: 40px;
+  margin: 0;
+}
+
+.T_input {
+  cursor: auto;
+  color: white;
+  margin-bottom: -30px;
+  font-size: small;
+}
+
+.di_T_input {
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
+  width: 70px;
+  justify-content: left;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.login_T {
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
+  margin-bottom: -90px;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 900;
+  text-align: center;
+  display: block;
+  margin-block-start: 2.23em;
+  margin-block-end: 0em;
+}
+
+.Acess_T {
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
+  margin-left: -3px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  display: block;
+  font-size: 0.9em;
+  unicode-bidi: isolate;
+}
+
+.Bot_acess {
+  transition: all 5s ease 0;
+  background-color: #081c72;
+  border: 3px solid #081c72;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px 0;
+  padding: 10px;
+  animation-name: animacao;
+  margin: 0;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.Bot_acess:hover {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animacao {
+  0% {
     background-color: #081c72;
-    border: 3px solid #081c72;
-    text-align: center;
-    justify-content: center;
-    color: #ffffff;
-    cursor: pointer;
-    border-radius: 10px 0;
-    padding: 10px;
-    animation-name: animacao;
-    margin: 0;
-
+  }
+  50% {
+    background-color: rgb(29, 15, 155);
+  }
+  100% {
+    background-color: #081c72;
+  }
 }
 
-.flex-grow{
+@keyframes up {
+  0% {
+    transform: scale(1);
+  }
 
-    flex-grow: 1;
+  50% {
+    transform: scale(1.2);
+  }
 
+  100% {
+    transform: scale(1);
+  }
 }
 
-.Bot_acess:hover{
-
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-
+h4 {
+  animation: up 1s step-start;
+  animation-delay: 0.1s;
 }
 
-@keyframes animacao{
-
-    0%{background-color: #081c72;}
-    50%{background-color: rgb(29, 15, 155);}
-    100%{background-color: #081c72;}
-
+@keyframes animacao {
+  0% {
+    background-color: #081c72;
+  }
+  50% {
+    background-color: rgb(29, 15, 155);
+  }
+  100% {
+    background-color: #081c72;
+  }
 }
 
-@keyframes up{
+@keyframes up {
+  0% {
+    transform: scale(1);
+  }
 
-    0%{transform: scale(1);}
+  50% {
+    transform: scale(1.2);
+  }
 
-    50%{transform: scale(1.2);}
-
-    100%{transform: scale(1);}
-
+  100% {
+    transform: scale(1);
+  }
 }
 
-h4{
-
-    animation: up 1s step-start;
-    animation-delay: 0.1s;
-
+h4 {
+  animation: up 1s step-start;
+  animation-delay: 0.1s;
 }
 
-input:focus{
-
-    transition: all 1s;
-    border: 3px solid #081c72;
-    background-color: white;
-
+input:focus {
+  transition: all 1s;
+  border: 3px solid #081c72;
+  background-color: white;
 }
-
-
