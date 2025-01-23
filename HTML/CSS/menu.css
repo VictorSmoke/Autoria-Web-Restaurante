@@ -1,6 +1,6 @@
 * {
   padding: 0;
-  margin: 0px solid black;
+  border: 0px solid black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -56,6 +56,7 @@ main {
   flex-direction: column;
   padding: 0;
   margin: 0;
+  min-height: 100vh;
 }
 
 .div-text img {
@@ -105,11 +106,11 @@ main {
   position: fixed;
   top: 0px;
   width: 100%;
-  padding: 1rem 0;
   flex-grow: 1;
   display: flex;
   justify-content: center;
   margin: 0;
+  float: left;
 }
 
 #header img {
@@ -146,7 +147,7 @@ main {
 }
 
 .header-content {
-  width: 85%;
+  width: 90%;
   justify-content: space-between;
 }
 
@@ -158,7 +159,7 @@ main {
   /*align-items: center;*/
   flex-direction: column;
   flex-grow: 1;
-  margin-top: 50px;
+  margin-top: 200px;
   margin-bottom: 50px;
 }
 
@@ -169,6 +170,15 @@ main {
   padding-left: 5px;
   padding-top: 3px;
   padding-bottom: 1px;
+  margin: 0;
+}
+
+#div_h1 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 125px;
 }
 
 .link-cabeçalho {
@@ -505,7 +515,7 @@ main {
 
 .sb {
   margin-bottom: 10px;
-  background-color: rgb(252, 67, 67);
+  background-color: rgb(141, 27, 34);
   color: white;
   border-radius: 10px;
   padding: 5px;
@@ -667,10 +677,11 @@ a {
   transform: scale(1.1);
   transition: transform 0.5s;
 
-  .animacome:hover {
-    transform: scale(1.1);
-    transition: transform 0.5s;
-  }
+}
+
+.animacome:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
 }
 
 @media (max-width: 900px) {

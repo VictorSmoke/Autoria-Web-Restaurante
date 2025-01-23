@@ -14,6 +14,7 @@ body{
     flex-direction: column;
     justify-content: center;
     min-height: 300vh;
+    background-color: rgb(141, 27, 34);
 
 }
 
@@ -46,6 +47,15 @@ footer{
     color: white;
     padding: 10px 0;
     flex-grow: 0;
+
+}
+
+@media (max-width:900px){
+
+    footer{
+
+        width: 100%;
+    }
 
 }
 
@@ -83,6 +93,28 @@ img{
     flex-direction: column;
     height: 500px;
     width: 100%;
+
+}
+
+@media (max-width:900px){ /*RESPONSIVIDADE PARA AS IMAGENS ROLADAS*/
+
+.div_slider{
+
+    height: 400px;
+    /*width: 50%;*/
+    margin-top: 10px;
+}
+
+}
+
+@media (max-width:600px){/*RESPONSIVIDADE PARA AS IMAGENS ROLADAS*/
+
+    .div_slider{
+
+        height: 750px;
+        margin-top: 40px;
+
+    }
 
 }
 
@@ -228,6 +260,16 @@ img{
 
 }
 
+@media(max-width:900px){/*FUNCIONALIDADE RESPONSIVA PARA .recepicão-tela_inicial*/
+
+.recepicão_tela_Inicial{
+
+    font-size: 23px;
+
+}
+
+}
+
 .link-cabeçalho{
 
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.8);
@@ -310,6 +352,16 @@ img{
     height: 500px;
     width: 600px;
     border-radius: 10px;
+
+}
+
+@media (max-width:900px){/*APLICAÇÃO DE RESPONSIVIDADE PARA .silder*/
+
+    .slider{
+
+        width: 400px;
+        height: 500px;
+    }
 
 }
 
