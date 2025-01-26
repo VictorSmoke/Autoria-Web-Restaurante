@@ -4,13 +4,11 @@
   border-radius: 10px;
   box-shadow: -2px 2px 4px black;
   margin-top: 50px;
-  margin-bottom: 50px;
-  background-image: url(Imagens/cardápio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  flex-grow: 0;
 }
 
 @media (max-width:600px){/*PARA AJUSTE DO CARDÁPIO DE FUNDO*/
@@ -43,16 +41,20 @@
 
 .cabeçalho_cardápio {
   border-radius: 10px 10px 0px 0px;
-  flex-grow: 1;
-  height: 19%;
+  flex-grow: 0;
+  height: 380px;
   width: 100%;
+  background-image: url(Imagens/cabeçalho\ cardápio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .tabela_cardápio {
-  flex-grow: 1;
+  flex-grow: 0;
   height: auto;
   width: 100%;
-  background-color: rgb(240, 230, 200);
+  background-color: rgba(241, 233, 216, 255);
+  background-image: url();
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -61,15 +63,18 @@
 .rodape_cardápio {
   border-radius: 0px 0px 10px 10px;
   flex-grow: 0;
-  height: 13%;
+  height: 200px;
   width: 100%;
+  background-image: url(Imagens/rodapé\ cardápio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .divisoria_Di {
-  background-color: rgb(245, 245, 220);
+  background-color: rgba(241, 233, 216, 255);
   width: 50%;
   height: auto;
-  border-right: solid rgb(65, 105, 220) 1px;
+  border-right: solid rgb(34, 72, 123) 1px;
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -78,10 +83,10 @@
 }
 
 .divisoria_Es {
-  background-color: rgb(245, 245, 220);
+  background-color: rgba(241, 233, 216, 255);
   width: 50%;
   height: auto;
-  border-left: solid rgb(0, 0, 100) 1px;
+  border-left: solid rgb(34, 72, 123) 1px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -100,7 +105,7 @@
 }
 
 .divisoria_Di .titulos {
-  color: rgb(0, 0, 100);
+  color: rgb(34, 72, 123);
   text-align: center;
   font-size: 30px;
   margin-top: 30px;
@@ -109,7 +114,7 @@
 }
 
 .divisoria_Es .titulos {
-  color: rgb(0, 0, 100);
+  color: rgb(34, 72, 123);
   text-align: center;
   font-size: 30px;
   margin-top: 30px;
@@ -176,6 +181,61 @@ tr:last-child {
 
 .preço {
   font-weight: 600;
+}
+
+.di_img {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 350px;
+  width: 300px;
+  background-color: rgb(34, 72, 123);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.QR_code {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.btn_pedido {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 230px;
+  background-color: #25d366;
+  border-radius: 50px;
+}
+
+.btn_pedido i {
+  margin-right: 10px;
+}
+
+.btn_pedido:hover {
+  animation-name: up;
+  transition: 2s;
+  animation-timing-function: ease;
+  animation-duration: 0.5s;
+}
+
+@keyframes up {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 @media (max-width: 900px) {
