@@ -529,7 +529,7 @@ main {
 
 .sb:hover {
   cursor: pointer;
-  background-color: rgb(196, 51, 51); /*Efeito para o mouse*/
+  background-color: rgb(196, 51, 51); /*Efeito para o mouse*//**/
   width: 90px;
 }
 
