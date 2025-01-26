@@ -25,7 +25,7 @@
   flex-grow: 0;
   height: auto;
   width: 100%;
-  background-color: rgb(240, 230, 200);
+  background-color: rgba(241, 233, 216, 255);
   background-image: url();
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,10 +43,10 @@
 }
 
 .divisoria_Di {
-  background-color: rgb(245, 245, 220);
+  background-color: rgba(241, 233, 216, 255);
   width: 50%;
   height: auto;
-  border-right: solid rgb(65, 105, 220) 1px;
+  border-right: solid rgb(34, 72, 123) 1px;
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -55,10 +55,10 @@
 }
 
 .divisoria_Es {
-  background-color: rgb(245, 245, 220);
+  background-color: rgba(241, 233, 216, 255);
   width: 50%;
   height: auto;
-  border-left: solid rgb(0, 0, 100) 1px;
+  border-left: solid rgb(34, 72, 123) 1px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -67,7 +67,7 @@
 }
 
 .divisoria_Di .titulos {
-  color: rgb(0, 0, 100);
+  color: rgb(34, 72, 123);
   text-align: center;
   font-size: 30px;
   margin-top: 30px;
@@ -76,7 +76,7 @@
 }
 
 .divisoria_Es .titulos {
-  color: rgb(0, 0, 100);
+  color: rgb(34, 72, 123);
   text-align: center;
   font-size: 30px;
   margin-top: 30px;
@@ -128,7 +128,7 @@ tr:last-child {
   margin-left: 50px;
   height: 350px;
   width: 300px;
-  background-color: rgb(28, 40, 66);
+  background-color: rgb(34, 72, 123);
   border-radius: 10px;
   display: flex;
   align-items: center;
