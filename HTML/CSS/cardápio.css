@@ -11,17 +11,6 @@
   flex-grow: 0;
 }
 
-@media (max-width:600px){/*PARA AJUSTE DO CARDÁPIO DE FUNDO*/
-
-  .cardapio{
-
-    background-size: cover;
-    background-position: center;
-    width: auto;
-
-  }
-
-}
 
 *{
 
@@ -49,6 +38,19 @@
   background-repeat: no-repeat;
 }
 
+@media (max-width:600px){/*PARA AJUSTE DO CARDÁPIO DE FUNDO*/
+
+  .cabeçalho_cardápio{
+
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    margin-top: -50px;
+
+  }
+
+}
+
 .tabela_cardápio {
   flex-grow: 0;
   height: auto;
@@ -62,12 +64,27 @@
 
 .rodape_cardápio {
   border-radius: 0px 0px 10px 10px;
-  flex-grow: 0;
+  flex-grow: 1;
   height: 200px;
   width: 100%;
   background-image: url(Imagens/rodapé\ cardápio.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (max-width:600px){/*PARA AJUSTE DO CARDÁPIO DE FUNDO*/
+
+  .rodape_cardápio{
+
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 250px;
+    margin-bottom: 20px;
+
+
+  }
+
 }
 
 .divisoria_Di {
@@ -196,10 +213,48 @@ tr:last-child {
   flex-direction: column;
 }
 
+@media(max-width:900px){
+
+.di_img{
+  
+    height: 350px;
+    width: 280px;
+    background-color: rgb(34, 72, 123);
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  
+  }
+
+@media(max-width:600px){
+
+.di_img{
+
+  height: 290px;
+  width: 190px;
+  background-color: rgb(34, 72, 123);
+  margin-top: 50px;
+ margin-left: 10px;
+
+}
+
+}
+
 .QR_code {
   height: 200px;
   width: 200px;
   border-radius: 10px;
+}
+
+@media(max-width:600px){
+
+.QR_code{
+
+  height: 150px;
+  width: 150px;
+
+}
+
 }
 
 .btn_pedido {
@@ -213,9 +268,31 @@ tr:last-child {
   border-radius: 50px;
 }
 
+@media(max-width:600px){
+
+  .btn_pedido{
+  
+    height: 40px;
+    width: 170px;
+    padding: 5px;
+  
+  }
+  
+  }
+
 .btn_pedido i {
   margin-right: 10px;
 }
+
+@media(max-width:600px){
+
+  .btn_pedido i{
+  
+    margin-right: 5px;
+  
+  }
+  
+  }
 
 .btn_pedido:hover {
   animation-name: up;
