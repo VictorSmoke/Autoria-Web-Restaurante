@@ -9,15 +9,23 @@
 body{
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(141, 27, 34);
 
 }
 
+h1{
+
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
 table{
 
-    display: flex;
     justify-content: left;
     background-color: rgb(28, 40, 66);
     width: 90%;
@@ -28,9 +36,6 @@ table{
 
 table tr{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 50px;
     border: solid black 2px;
@@ -39,21 +44,27 @@ table tr{
 
 table tr td{
 
-    width: 100%;
     margin-left: 10px;
+    margin-right: 10px;
     color: white;
     border: solid black 2px;
     text-align: left;
 
 }
 
+table tr th{
+
+    border: solid black 2px;
+    color: white;
+
+}
+
 .conteudo{
 
     height: auto;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     border: solid white 2px;
 
