@@ -6,12 +6,19 @@
 
 }
 
+::selection{
+
+    background: rgba(241, 233, 216, 255);
+    color: black;
+
+}
+
 body{
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: rgb(141, 27, 34);
 
 }
@@ -28,7 +35,7 @@ table{
 
     justify-content: left;
     background-color: rgb(28, 40, 66);
-    width: 90%;
+    width: 70%;
     height: auto;
     border: solid 2px black;
 
@@ -38,7 +45,6 @@ table tr{
 
     width: 100%;
     height: 50px;
-    border: solid black 2px;
 
 }
 
@@ -47,14 +53,12 @@ table tr td{
     margin-left: 10px;
     margin-right: 10px;
     color: white;
-    border: solid black 2px;
-    text-align: left;
+    text-align: center;
 
 }
 
 table tr th{
 
-    border: solid black 2px;
     color: white;
 
 }
@@ -62,10 +66,91 @@ table tr th{
 .conteudo{
 
     height: auto;
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid white 2px;
+    
+
+}
+
+.men-delivery{
+
+    display: none;
+    width: 80px;
+    background-color: rgb(9, 4, 80);
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.btn_back:hover .men-delivery{
+
+    display: block;
+    position: absolute;
+  
+}
+
+.btn_back{
+
+    transition: all 5s ease 0;
+    background-color: rgb(28, 40, 66);
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+  
+.btn_back_menu{
+
+    transition: all 5s ease 0;
+    background-color: rgb(28, 40, 66);
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.div_btn_back{
+
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    bottom: 0;
+
+}
+  
+.a1 {
+
+    background-color: rgb(9, 4, 80);
+  
+}
+  
+.a1:hover{
+
+    color: aquamarine;
+
+}
+
+.a1-div{
+
+    text-align: center;
+    width: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
 
 }
