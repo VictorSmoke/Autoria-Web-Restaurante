@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 260vh;
+  min-height: 400vh;
   background-color: rgb(141, 27, 34);
 }
 

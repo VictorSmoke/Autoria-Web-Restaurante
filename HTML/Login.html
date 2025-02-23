@@ -17,7 +17,7 @@
 
   <body>
 
-    <form action="" method="post" style="margin-top: -20px">
+    <form action="" method="post" style="margin-top: -20px;">
 
       <div class="L_Esc">
 
@@ -55,43 +55,54 @@
 
       </div>
 
-      <div class="di_inputs">
+      <div class="di_inputs" style="display: flex; flex-direction: column; align-items: start; justify-content: center; width: 40%;">
 
-        <div class="inp_di">
+        <div>
 
-          <div class="di_T_input"><label class="T_input">E-mail:</label></div>
-          <div class="div_inputs"><input type="email" class="input"></div>
+          <div class="inp_di">
 
-        </div>
+            <div class="di_T_input"><label class="T_input">Nome:</label></div>
+            <div class="div_inputs"><input type="text" class="input"></div>
 
-        <div class="inp_di">
+          </div>
 
-          <div class="di_T_input"><label class="T_input">Telefone:</label></div>
+          <div class="inp_di">
 
-          <div class="div_inputs">
+            <div class="di_T_input"><label class="T_input">E-mail:</label></div>
+            <div class="div_inputs"><input type="email" class="input"></div>
 
-            <input type="number" class="input_Tel" placeholder="(00) 0000-0000" onkeyup="mascara()" autocomplete="off" id="TEL" maxlength="14">
+          </div>
+
+          <div class="inp_di">
+
+            <div class="di_T_input"><label class="T_input">Telefone:</label></div>
+
+            <div class="div_inputs">
+
+              <input type="number" class="input_Tel" placeholder="(00) 0000-0000" onkeyup="mascara()" autocomplete="off" id="TEL" maxlength="14">
+
+            </div>
+
+          </div>
+
+          <div class="inp_di">
+
+            <div class="di_T_input"><label class="T_input">Senha:</label></div>
+
+            <div class="div_inputs">
+
+              <input type="password" class="input_Tel">
+
+            </div>
 
           </div>
 
         </div>
 
-        <div class="inp_di">
-
-          <div class="di_T_input"><label class="T_input">Senha:</label></div>
-
-          <div class="div_inputs">
-
-            <input type="password" class="input_Tel">
-
-          </div>
-
-        </div>
-
-        <div class="inp_di-btn" style="justify-content: right">
+        <div class="inp_di-btn" style="justify-content: right; margin-left: -30px;">
 
           <a class="input_Enter" href="Tela Inicial.html">Entrar</a>
-
+  
         </div>
 
       </div>

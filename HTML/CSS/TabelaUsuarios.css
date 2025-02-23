@@ -35,7 +35,7 @@ table{
 
     justify-content: left;
     background-color: rgb(28, 40, 66);
-    width: 70%;
+    width: 90%;
     height: auto;
     border: solid 2px black;
 
@@ -50,6 +50,7 @@ table tr{
 
 table tr td{
 
+    width: 12.5%;
     margin-left: 10px;
     margin-right: 10px;
     color: white;
@@ -70,7 +71,7 @@ table tr th{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    margin-bottom: 50px;
 
 }
 
@@ -82,7 +83,7 @@ table tr th{
     border-radius: 5px;
     flex-direction: column;
     align-items: center;
-  
+
 }
 
 .btn_back:hover .men-delivery{
@@ -152,5 +153,18 @@ table tr th{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
+
+}
+
+.background-azul{
+
+    background-color: rgb(28, 40, 66);
+
+}
+
+.background-bege td{
+
+    background: rgba(241, 233, 216, 255);
+    color: black;
 
 }

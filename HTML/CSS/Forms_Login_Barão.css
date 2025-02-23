@@ -245,9 +245,10 @@ a{
   box-shadow: -5px 8px 0px rgba(0, 0, 0, 0.8);
   border-radius: 0px 10px 10px 0px;
   background-color: rgb(141, 27, 34);
-  width: 100%;
+  width: 60%;
   height: 80%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -266,6 +267,12 @@ a{
 .div-inputs-1{
 
   width: 40%;
+
+}
+
+.div-inputs-2{
+
+  width: 50%;
 
 }
 
