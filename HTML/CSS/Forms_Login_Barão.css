@@ -1,5 +1,12 @@
 * {
+  
   font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+
+  cursor: pointer;
+
 }
 
 body {
@@ -89,8 +96,11 @@ div {
   border: solid black 0px;
 }
 
-a {
+a{
+
+  cursor: pointer;
   text-decoration: none;
+
 }
 
 .men-delivery {
@@ -267,7 +277,7 @@ a {
 
 .inp_di-btn {
   background-color: rgb(141, 27, 34);
-  width: 87%;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
   display: flex;
@@ -323,7 +333,7 @@ a {
 
 }
 
-.inp_di:hover .di_inputs_menu{
+#div_endere:hover .di_inputs_menu{
 
   display: flex;
 
@@ -349,6 +359,15 @@ a {
 
 #submenu_inputs{
 
+  background-color: rgb(28, 40, 66);
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
   cursor: pointer;
 
 }
@@ -356,6 +375,34 @@ a {
 input[type="checkbox"] {
 
   cursor: pointer;
+
+}
+
+.inp_di select option{
+
+  background-color: rgb(28, 40, 66);
+  color: white;
+
+}
+
+.inp_di select {
+
+  background-color: rgb(28, 40, 66);
+  color: white;
+
+}
+
+#div_endere{
+
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display: grid;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  position: relative;
 
 }
 
