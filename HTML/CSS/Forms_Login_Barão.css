@@ -239,7 +239,6 @@ a {
   height: 80%;
   display: flex;
   align-items: center;
-  border: solid black 2px;
 }
 
 .inp_di {
@@ -251,7 +250,7 @@ a {
   flex-direction: column;
   justify-content: left;
   align-items: center;
-  border: solid black 2px;
+  position: relative;
 }
 
 .div-inputs-1{
@@ -312,26 +311,49 @@ a {
 
 .di_inputs_menu{
 
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
+  border-radius: 10px;
+  min-width: 300px;  
   display: none;
-  flex-direction: column;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-  position: relative;
-  border: solid black 2px;
+  position: absolute;
+  background-color: rgb(28, 40, 66);
+  top: 100%;
+  left: 0;
 
 }
 
-.submenu_inputs:hover .di_inputs_menu{
+.inp_di:hover .di_inputs_menu{
 
-  display: block;
+  display: flex;
+
+}
+
+.di_inputs_menu:last-child div{
+
+  margin-bottom: 10px;
+
+}
+
+.di_inputs_menu:last-child div label{
+
+  margin-bottom: -5px;
+
+}
+
+.di_inputs_menu #logradouro:only-child {
+
+  margin-top: 15px;
 
 }
 
 #submenu_inputs{
+
+  cursor: pointer;
+
+}
+
+input[type="checkbox"] {
 
   cursor: pointer;
 
