@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu com Submenu</title>
+    <style>
+        /* Estilo do menu */
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            position: relative;
+            display: inline-block;
+        }
+
+        a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #333;
+            color: white;
+        }
+
+        /* Submenu oculto por padrão */
+        ul.submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 9999;
+        }
+
+        ul.submenu li {
+            display: block;
+        }
+
+        /* Exibir submenu ao passar o mouse sobre o item principal */
+        li:hover > ul.submenu {
+            display: block;
+        }
+
+        ul.submenu a {
+            background-color: #444;
+        }
+
+        ul.submenu a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Menu 1</a></li>
+        <li>
+            <a href="#">Menu 2</a>
+            <ul class="submenu">
+                <li><a href="#">Submenu 2.1</a></li>
+                <li><a href="#">Submenu 2.2</a></li>
+                <li><a href="#">Submenu 2.3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Menu 3</a></li>
+    </ul>
+</body>
