@@ -179,3 +179,17 @@ table tr th{
     color: black;
 
 }
+
+@media(max-width:600px){
+
+table{
+
+width: 80%;
+height: 500px;
+margin-left: 150px;
+
+}
+
+
+}
+
