@@ -23,6 +23,14 @@ body{
 
 }
 
+a{
+
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
 h1{
 
     color: white;
@@ -86,11 +94,13 @@ table tr th{
 
 }
 
-.btn_back:hover .men-delivery{
+.div_btn_back:hover .men-delivery{
 
     display: block;
     position: absolute;
-  
+    top: 100%;
+    left: 0%;
+
 }
 
 .btn_back{
@@ -106,7 +116,7 @@ table tr th{
     text-decoration: none;
 
 }
-  
+
 .btn_back_menu{
 
     transition: all 5s ease 0;
@@ -131,15 +141,16 @@ table tr th{
     align-items: center;
     justify-content: left;
     bottom: 0;
+    position: relative;
 
 }
-  
+
 .a1 {
 
     background-color: rgb(9, 4, 80);
-  
+
 }
-  
+
 .a1:hover{
 
     color: aquamarine;
