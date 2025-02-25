@@ -136,7 +136,7 @@ img {
 
 .men-delivery {
   display: none;
-  width: 80px;
+  width: 100px;
   background-color: rgb(9, 4, 80);
   border-radius: 5px;
   flex-direction: column;
