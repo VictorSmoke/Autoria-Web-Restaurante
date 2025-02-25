@@ -252,6 +252,18 @@ a{
   align-items: center;
 }
 
+#di_inputs_cadProdutos{
+
+  align-items: start;
+
+}
+
+#di_inputs_cadProdutos .alinhamento{
+
+  margin-top: 50px;
+
+}
+
 .inp_di {
   width: 100%;
   margin-top: 10px;
@@ -272,7 +284,7 @@ a{
 
 .div-inputs-2{
 
-  width: 50%;
+  width: 47%;
 
 }
 
