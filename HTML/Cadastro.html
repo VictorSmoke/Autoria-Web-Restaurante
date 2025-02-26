@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="CSS/Imagens/favicon-32x32.png">
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/Forms_Login_Barão.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/Número de telefone.js" defer></script>
+    <script src="js/AvisoCad.js" defer></script>
 
   </head>
 
@@ -56,14 +56,14 @@
           <div class="inp_di">
 
           <div class="di_T_input"><label class="T_input">Nome:</label></div>
-          <div class="div_inputs"><input type="text" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'"></div>
+          <div class="div_inputs"><input id="Nome" type="text" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'"></div>
 
           </div>
         
           <div class="inp_di">
 
             <div class="di_T_input"><label class="T_input">E-mail:</label></div>
-            <div class="div_inputs"><input type="email" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'"></div>
+            <div class="div_inputs"><input id="Email" type="email" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'"></div>
 
           </div>
 
@@ -85,7 +85,7 @@
 
             <div class="div_inputs">
 
-              <input type="password" class="input_Tel" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'">
+              <input id="senha" type="password" class="input_Tel" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'">
 
             </div>
 
@@ -97,7 +97,7 @@
 
             <div class="div_inputs">
 
-              <input type="password" class="input_Tel" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'">
+              <input id="Confirmeasenha" type="password" class="input_Tel" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'">
 
             </div>
 
@@ -117,7 +117,7 @@
           <div class="inp_di">
 
             <div class="di_T_input"><label class="T_input">CPF:</label></div>
-            <div class="div_inputs"><input type="number" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'"></div>
+            <div class="div_inputs"><input id="CPF" type="number" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'"></div>
 
           </div>
 
@@ -160,15 +160,15 @@
             <div class="di_inputs_menu">
 
               <div id="logradouro"><div class="di_T_input"><label class="T_input">Logradouro:</label></div> 
-              <div><div class="div_inputs"><input type="text" class="input"></div></div> 
+              <div><div class="div_inputs"><input id="Logradouro" type="text" class="input"></div></div> 
               <div><div class="di_T_input"><label class="T_input">Número:</label></div></div>
-              <div><div class="div_inputs"><input type="number" class="input"></div></div>
+              <div><div class="div_inputs"><input id="Número" type="number" class="input"></div></div>
               <div><div class="di_T_input"><label class="T_input">CEP:</label></div></div>
-              <div><div class="div_inputs"><input type="number" class="input"></div></div>
+              <div><div class="div_inputs"><input id="CEP" type="number" class="input"></div></div>
               <div><div class="di_T_input"><label class="T_input">Bairro:</label></div></div>
-              <div><div class="div_inputs"><input type="text" class="input"></div></div>
+              <div><div class="div_inputs"><input id="Bairro" type="text" class="input"></div></div>
               <div><div class="di_T_input"><label class="T_input">Cidade:</label></div></div>
-              <div><div class="div_inputs"><input type="text" class="input"></div></div>         
+              <div><div class="div_inputs"><input id="Cidade" type="text" class="input"></div></div>         
               <div><div class="di_T_input"><label class="T_input">Estado:</label></div></div>
 
               <select id="opcoes">
@@ -210,9 +210,11 @@
           
           </div>
 
-          <div class="inp_di-btn" style="justify-content: right; margin-left: -30px;">
+          <div class="inp_di-btn" style="justify-content: right; margin-left: -30px; ">
 
-            <a class="input_Enter" href="Cadastro realizado.html">Cadastrar</a>
+            <a class="input_Enter" href="#" onclick="MensagemExclusão()">Excluir</a>
+            <a class="input_Enter" href="#" onclick="AvisoAlt()">Alterar</a>
+            <a class="input_Enter" href="#" onclick="MensagemCadastro()">Cadastrar</a>
   
           </div>
 

@@ -11,7 +11,7 @@
         <link rel="shortcut icon" href="CSS/Imagens/favicon-32x32.png">
         <link rel="stylesheet" type="text/css" media="screen" href="CSS/Forms_Login_Barão.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="js/Número de telefone.js" defer></script>
+        <script src="js/AvisoCadPro.js" defer></script>
 
     </head>
 
@@ -59,7 +59,7 @@
 
                         <div class="div_inputs">
 
-                            <input type="text" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'">
+                            <input id="Nome" type="text" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'">
 
                         </div>
 
@@ -71,7 +71,7 @@
 
                         <div class="div_inputs">
 
-                            <input type="text" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'">
+                            <input id="Descrição" type="text" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'">
 
                         </div>
 
@@ -95,7 +95,7 @@
 
                         <div class="div_inputs">
 
-                        <input type="text" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'">
+                            <input id="Cor" type="text" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'">
 
                         </div>
 
@@ -108,21 +108,21 @@
                     <div class="inp_di">
 
                         <div class="di_T_input"><label class="T_input">Marca:</label></div>
-                        <div class="div_inputs"><input type="text" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'"></div>
+                        <div class="div_inputs"><input id="Marca" type="text" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'"></div>
 
                     </div>
 
                     <div class="inp_di">
 
                         <div class="di_T_input"><label class="T_input">Preço:</label></div>
-                        <div class="div_inputs"><input type="number" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'"></div>
+                        <div class="div_inputs"><input id="Preço" type="number" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'"></div>
 
                     </div>
 
                     <div class="inp_di">
 
                         <div class="di_T_input"><label class="T_input">Dimensões:</label></div>
-                        <div class="div_inputs"><input type="text" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'"></div>
+                        <div class="div_inputs"><input id="Dimensões" type="text" class="input" onfocus="this.style.backgroundColor='rgb(28, 40, 66)'; this.style.color='white'"></div>
 
                     </div>
 
@@ -147,7 +147,10 @@
 
                     <div class="inp_di-btn" style="justify-content: right; margin-left: -30px;">
 
-                        <a class="input_Enter" href="Cadastro realizado.html">Cadastrar</a>
+                        <a class="input_Enter" href="#" onclick="MensagemExclusão()">Excluir</a>
+                        <a class="input_Enter" href="#" onclick="AvisoAlt()">Alterar</a>
+                        <a class="input_Enter" href="#" onclick="MensagemCadastro()">Cadastrar</a>
+  
 
                     </div>
 
